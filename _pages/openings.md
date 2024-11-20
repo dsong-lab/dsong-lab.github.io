@@ -6,4 +6,8 @@ sitemap: false
 permalink: /vacancies
 ---
 
-We are always looking for new group members with passion, talent, and grit!
+If you have questions about any of these positions, please email me (<dosong@uchc.edu>).
+
+### Ph.D. Student
+
+### Postdoc
