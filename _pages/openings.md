@@ -1,9 +1,9 @@
 ---
-title: "Vacancies"
+title: "Openings"
 layout: default
 excerpt: "Openings"
 sitemap: false
-permalink: /openings
+permalink: /openings/
 ---
 
 If you have questions about any of these positions, please email me (<dosong@uchc.edu>).
