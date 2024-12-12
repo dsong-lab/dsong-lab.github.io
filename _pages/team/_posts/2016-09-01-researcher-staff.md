@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Researcher Name
-image: researcher.png
+image: Dongyuan.jpg
 role: Lab Director
 permalink: 'team/researcher-name'
 social:
