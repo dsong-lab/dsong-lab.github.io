@@ -36,5 +36,54 @@
 				]
 			]
 		}
+	},
+
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/5CYQDXK5",
+		"type": "article-journal",
+		"abstract": "We present a statistical simulator, scDesign3, to generate realistic single-cell and spatial omics data, including various cell states, experimental designs and feature modalities, by learning interpretable parameters from real data. Using a unified probabilistic model for single-cell and spatial omics data, scDesign3 infers biologically meaningful parameters; assesses the goodness-of-fit of inferred cell clusters, trajectories and spatial locations; and generates in silico negative and positive controls for benchmarking computational tools.",
+		"container-title": "Nature Biotechnology",
+		"DOI": "10.1038/s41587-023-01772-1",
+		"issue": "2",
+		"note": "publisher: Nature Research",
+		"page": "247-252",
+		"title": "scDesign3 generates realistic in silico data for multimodal single-cell and spatial omics",
+		"volume": "42",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Wang",
+				"given": "Qingyang"
+			},
+			{
+				"family": "Yan",
+				"given": "Guanao"
+			},
+			{
+				"family": "Liu",
+				"given": "Tianyang"
+			},
+			{
+				"family": "Sun",
+				"given": "Tianyi"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					2
+				]
+			]
+		}
 	}
 ]
+
+
