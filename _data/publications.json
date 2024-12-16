@@ -1,44 +1,5 @@
 [
 	{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
-		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
-		"author": [
-			{
-				"family": "Naylor",
-				"given": "P."
-			},
-			{
-				"family": "Laé",
-				"given": "M."
-			},
-			{
-				"family": "Reyal",
-				"given": "F."
-			},
-			{
-				"family": "Walter",
-				"given": "T."
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019",
-					2
-				]
-			]
-		}
-	},
-
-	{
 		"id": "http://zotero.org/users/local/FrGxSZBV/items/5CYQDXK5",
 		"type": "article-journal",
 		"abstract": "We present a statistical simulator, scDesign3, to generate realistic single-cell and spatial omics data, including various cell states, experimental designs and feature modalities, by learning interpretable parameters from real data. Using a unified probabilistic model for single-cell and spatial omics data, scDesign3 infers biologically meaningful parameters; assesses the goodness-of-fit of inferred cell clusters, trajectories and spatial locations; and generates in silico negative and positive controls for benchmarking computational tools.",
@@ -83,7 +44,765 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/44EFC3XR",
+		"type": "article-journal",
+		"container-title": "Journal of Systematics and Evolution",
+		"issue": "2",
+		"page": "149–157",
+		"title": "Increased novel single nucleotide polymorphisms in weedy rice populations associated with the change of farming styles: Implications in adaptive mutation and evolution",
+		"volume": "55",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dong-Yuan"
+			},
+			{
+				"family": "Wang",
+				"given": "Zhe"
+			},
+			{
+				"family": "Song",
+				"given": "Zhuo-Jun"
+			},
+			{
+				"family": "Zhou",
+				"given": "Cheng-Chuan"
+			},
+			{
+				"family": "Xu",
+				"given": "Peng-Hao"
+			},
+			{
+				"family": "Yang",
+				"given": "Jie"
+			},
+			{
+				"family": "Yang",
+				"given": "Ji"
+			},
+			{
+				"family": "Lu",
+				"given": "Bao-Rong"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/3SD7TXNS",
+		"type": "article-journal",
+		"container-title": "Proceedings of the Royal Society B",
+		"issue": "1888",
+		"note": "publisher: The Royal Society",
+		"page": "20181314",
+		"title": "Explaining the ocean's richest biodiversity hotspot and global patterns of fish diversity",
+		"volume": "285",
+		"author": [
+			{
+				"family": "Miller",
+				"given": "Elizabeth Christina"
+			},
+			{
+				"family": "Hayashi",
+				"given": "Kenji T"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Wiens",
+				"given": "John J"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/DT3S5HZT",
+		"type": "article-journal",
+		"container-title": "Genome biology",
+		"issue": "1",
+		"note": "publisher: BioMed Central London",
+		"page": "124",
+		"title": "PseudotimeDE: inference of differential gene expression along cell pseudotime with well-calibrated p-values from single-cell RNA sequencing data",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/QMRY77JG",
+		"type": "article-journal",
+		"container-title": "Genome biology",
+		"note": "publisher: BioMed Central",
+		"page": "1–29",
+		"title": "Clipper: p-value-free FDR control on high-throughput data from two conditions",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Ge",
+				"given": "Xinzhou"
+			},
+			{
+				"family": "Chen",
+				"given": "Yiling Elaine"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "McDermott",
+				"given": "MeiLu"
+			},
+			{
+				"family": "Woyshner",
+				"given": "Kyla"
+			},
+			{
+				"family": "Manousopoulou",
+				"given": "Antigoni"
+			},
+			{
+				"family": "Wang",
+				"given": "Ning"
+			},
+			{
+				"family": "Li",
+				"given": "Wei"
+			},
+			{
+				"family": "Wang",
+				"given": "Leo D"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/CT6LFDKU",
+		"type": "article-journal",
+		"container-title": "Bioinformatics",
+		"issue": "Supplement_1",
+		"note": "publisher: Oxford University Press",
+		"page": "i358–i366",
+		"title": "scPNMF: sparse gene encoding of single cells to facilitate gene selection for targeted gene profiling",
+		"volume": "37",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Kexin"
+			},
+			{
+				"family": "Hemminger",
+				"given": "Zachary"
+			},
+			{
+				"family": "Wollman",
+				"given": "Roy"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/D9TI5K2S",
+		"type": "article-journal",
+		"container-title": "Genome biology",
+		"issue": "1",
+		"note": "publisher: BioMed Central London",
+		"page": "163",
+		"title": "scDesign2: a transparent simulator that generates high-fidelity single-cell gene expression count data with gene correlations captured",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Sun",
+				"given": "Tianyi"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Wei Vivian"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/PBUC563Y",
+		"type": "article-journal",
+		"container-title": "Genome biology",
+		"issue": "1",
+		"note": "publisher: BioMed Central London",
+		"page": "31",
+		"title": "Statistics or biology: the zero-inflation controversy about scRNA-seq data",
+		"volume": "23",
+		"author": [
+			{
+				"family": "Jiang",
+				"given": "Ruochen"
+			},
+			{
+				"family": "Sun",
+				"given": "Tianyi"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/33YYFWAM",
+		"type": "article-journal",
+		"container-title": "Bioinformatics",
+		"issue": "16",
+		"note": "publisher: Oxford University Press",
+		"page": "3927–3934",
+		"title": "Single-cell generalized trend model (scGTM): a flexible and interpretable model of gene expression trend along cell pseudotime",
+		"volume": "38",
+		"author": [
+			{
+				"family": "Cui",
+				"given": "Elvis Han"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Wong",
+				"given": "Weng Kee"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/3G26RKJW",
+		"type": "article-journal",
+		"container-title": "Journal of Computational Biology",
+		"issue": "1",
+		"note": "publisher: Mary Ann Liebert, Inc., publishers 140 Huguenot Street, 3rd Floor New …",
+		"page": "23–26",
+		"title": "Simulating single-cell gene expression count data with preserved gene correlations by scDesign2",
+		"volume": "29",
+		"author": [
+			{
+				"family": "Sun",
+				"given": "Tianyi"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Wei Vivian"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/YT9YZD4Z",
+		"type": "article-journal",
+		"container-title": "Bioinformatics",
+		"issue": "11",
+		"note": "publisher: Oxford University Press",
+		"page": "3126–3127",
+		"title": "scSampler: fast diversity-preserving subsampling of large-scale single-cell transcriptomic data",
+		"volume": "38",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Xi",
+				"given": "Nan Miles"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			},
+			{
+				"family": "Wang",
+				"given": "Lin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/KFDF2GJT",
+		"type": "article-journal",
+		"container-title": "Nature Biotechnology",
+		"issue": "2",
+		"note": "publisher: Nature Publishing Group US New York",
+		"page": "247–252",
+		"title": "scDesign3 generates realistic in silico data for multimodal single-cell and spatial omics",
+		"volume": "42",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Wang",
+				"given": "Qingyang"
+			},
+			{
+				"family": "Yan",
+				"given": "Guanao"
+			},
+			{
+				"family": "Liu",
+				"given": "Tianyang"
+			},
+			{
+				"family": "Sun",
+				"given": "Tianyi"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/B2RNARPY",
+		"type": "article-journal",
+		"container-title": "Nature Communications",
+		"issue": "1",
+		"note": "publisher: Nature Publishing Group UK London",
+		"page": "7482",
+		"title": "scReadSim: a single-cell RNA-seq and ATAC-seq read simulator",
+		"volume": "14",
+		"author": [
+			{
+				"family": "Yan",
+				"given": "Guanao"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/ZP66SN6H",
+		"type": "article-journal",
+		"container-title": "Research Square",
+		"note": "publisher: American Journal Experts",
+		"title": "ClusterDE: a post-clustering differential expression (DE) method robust to false-positive inflation caused by double dipping",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Kexin"
+			},
+			{
+				"family": "Ge",
+				"given": "Xinzhou"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/KAC62Z3C",
+		"type": "article-journal",
+		"container-title": "bioRxiv",
+		"note": "publisher: Cold Spring Harbor Laboratory Preprints",
+		"title": "Decoding Heterogenous Single-cell Perturbation Responses",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Bicna"
+			},
+			{
+				"family": "Liu",
+				"given": "Dingyu"
+			},
+			{
+				"family": "Dai",
+				"given": "Weiwei"
+			},
+			{
+				"family": "McMyn",
+				"given": "Natalie"
+			},
+			{
+				"family": "Wang",
+				"given": "Qingyang"
+			},
+			{
+				"family": "Yang",
+				"given": "Dapeng"
+			},
+			{
+				"family": "Krejci",
+				"given": "Adam"
+			},
+			{
+				"family": "Vasilyev",
+				"given": "Anatoly"
+			},
+			{
+				"family": "Untermoser",
+				"given": "Nicole"
+			},
+			{
+				"family": "Loregger",
+				"given": "Anke"
+			},
+			{
+				"literal": "others"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/64RRIMMP",
+		"type": "article-journal",
+		"container-title": "Biorxiv",
+		"note": "publisher: Cold Spring Harbor Laboratory Preprints",
+		"title": "Benchmarking computational methods to identify spatially variable genes and peaks",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Zhijian"
+			},
+			{
+				"family": "Patel",
+				"given": "Zain M"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Yan",
+				"given": "Guanao"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			},
+			{
+				"family": "Pinello",
+				"given": "Luca"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/MTAUUVEN",
+		"type": "article-journal",
+		"container-title": "Nature Communications",
+		"issue": "1",
+		"note": "publisher: Nature Publishing Group UK London",
+		"page": "3110",
+		"title": "DNA binding analysis of rare variants in homeodomains reveals homeodomain specificity-determining residues",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Kock",
+				"given": "Kian Hong"
+			},
+			{
+				"family": "Kimes",
+				"given": "Patrick K"
+			},
+			{
+				"family": "Gisselbrecht",
+				"given": "Stephen S"
+			},
+			{
+				"family": "Inukai",
+				"given": "Sachi"
+			},
+			{
+				"family": "Phanor",
+				"given": "Sabrina K"
+			},
+			{
+				"family": "Anderson",
+				"given": "James T"
+			},
+			{
+				"family": "Ramakrishnan",
+				"given": "Gayatri"
+			},
+			{
+				"family": "Lipper",
+				"given": "Colin H"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Kurland",
+				"given": "Jesse V"
+			},
+			{
+				"literal": "others"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/DMCGXH3W",
+		"type": "thesis",
+		"genre": "PhD Thesis",
+		"publisher": "University of California, Los Angeles",
+		"title": "Improving Statistical Rigor in Single-Cell and Spatial Omics",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/ZSERGJWE",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2309.13518",
+		"title": "Review of computational methods for estimating cell potency from single-cell RNA-seq data, with a detailed analysis of discrepancies between method description and code implementation",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Qingyang"
+			},
+			{
+				"family": "Zhai",
+				"given": "Zhiqian"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/LJA3LHGV",
+		"type": "article-journal",
+		"container-title": "bioRxiv",
+		"title": "Spatial Single-Cell Mapping of Transcriptional Differences Across Genetic Backgrounds in Mouse Brains",
+		"author": [
+			{
+				"family": "Hemminger",
+				"given": "Zachary"
+			},
+			{
+				"family": "Sanchez-Tam",
+				"given": "Gabriela"
+			},
+			{
+				"family": "De Ocampo",
+				"given": "Haley"
+			},
+			{
+				"family": "Wang",
+				"given": "Aihui"
+			},
+			{
+				"family": "Underwood",
+				"given": "Thomas"
+			},
+			{
+				"family": "Xie",
+				"given": "Fangming"
+			},
+			{
+				"family": "Zhao",
+				"given": "Qiuying"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			},
+			{
+				"family": "Dong",
+				"given": "Hongwei"
+			},
+			{
+				"literal": "others"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
 	}
 ]
-
-
