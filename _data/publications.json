@@ -1,57 +1,17 @@
 [
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/5CYQDXK5",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/AAHGPUWD",
 		"type": "article-journal",
-		"abstract": "We present a statistical simulator, scDesign3, to generate realistic single-cell and spatial omics data, including various cell states, experimental designs and feature modalities, by learning interpretable parameters from real data. Using a unified probabilistic model for single-cell and spatial omics data, scDesign3 infers biologically meaningful parameters; assesses the goodness-of-fit of inferred cell clusters, trajectories and spatial locations; and generates in silico negative and positive controls for benchmarking computational tools.",
-		"container-title": "Nature Biotechnology",
-		"DOI": "10.1038/s41587-023-01772-1",
-		"issue": "2",
-		"note": "publisher: Nature Research",
-		"page": "247-252",
-		"title": "scDesign3 generates realistic in silico data for multimodal single-cell and spatial omics",
-		"volume": "42",
-		"author": [
-			{
-				"family": "Song",
-				"given": "Dongyuan"
-			},
-			{
-				"family": "Wang",
-				"given": "Qingyang"
-			},
-			{
-				"family": "Yan",
-				"given": "Guanao"
-			},
-			{
-				"family": "Liu",
-				"given": "Tianyang"
-			},
-			{
-				"family": "Sun",
-				"given": "Tianyi"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2024",
-					2
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/44EFC3XR",
-		"type": "article-journal",
+		"abstract": "Abstract Substantial genetic variation is found in weedy rice (Oryza sativa f. spontanea Roshev.) populations from different rice-planting regions with the change of farming styles. To determine the association of such genetic variation with rice farming changes is critical for understanding the adaptive evolution of weedy rice. We studied weedy-rice specific novel single nucleotide polymorphisms (SNPs) by genome-wide comparison between DNA sequences of weedy and cultivated rice, in addition to polymerase chain reaction fingerprinting at 22 selected novel SNP loci in weedy rice populations. A great number of novel SNPs were identified across the weedy rice genome. High frequencies of the novel SNPs were determined at the 22 selected loci, although with considerable variation among weedy rice populations in different rice-planting regions. The highest frequency (~57%) of novel SNPs was identified in weedy rice populations from Jiangsu that experienced the most dramatic changes in rice farming styles, including the shift from transplanting to direct seeding, and from indica to japonica varieties. The lowest frequency (~29%) was detected in weedy rice populations from Northeast China, where rice farming has undergone relatively less change. The association between frequencies of novel SNPs in weedy rice populations and the extent of changes in rice farming styles suggests the critical role of adaptive mutation and accumulation of the mutation influenced by human activities in the rapid evolution of weedy rice.",
 		"container-title": "Journal of Systematics and Evolution",
+		"DOI": "10.1111/jse.12230",
+		"ISSN": "1674-4918",
 		"issue": "2",
-		"page": "149–157",
+		"journalAbbreviation": "Journal of Systematics and Evolution",
+		"note": "number: 2\npublisher: John Wiley & Sons, Ltd",
+		"page": "149-157",
 		"title": "Increased novel single nucleotide polymorphisms in weedy rice populations associated with the change of farming styles: Implications in adaptive mutation and evolution",
+		"URL": "https://doi.org/10.1111/jse.12230",
 		"volume": "55",
 		"author": [
 			{
@@ -87,22 +47,37 @@
 				"given": "Bao-Rong"
 			}
 		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					12,
+					16
+				]
+			]
+		},
 		"issued": {
 			"date-parts": [
 				[
-					"2017"
+					"2017",
+					3,
+					1
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/3SD7TXNS",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/4XMZ4ARZ",
 		"type": "article-journal",
-		"container-title": "Proceedings of the Royal Society B",
+		"abstract": "For most marine organisms, species richness peaks in the Central Indo-Pacific region and declines longitudinally, a striking pattern that remains poorly understood. Here, we used phylogenetic approaches to address the causes of richness patterns among global marine regions, comparing the relative importance of colonization time, number of colonization events, and diversification rates (speciation minus extinction). We estimated regional richness using distributional data for almost all percomorph fishes (17 435 species total, including approximately 72% of all marine fishes and approximately 33% of all freshwater fishes). The high diversity of the Central Indo-Pacific was explained by its colonization by many lineages 5.3–34 million years ago. These relatively old colonizations allowed more time for richness to build up through in situ diversification compared to other warm-marine regions. Surprisingly, diversification rates were decoupled from marine richness patterns, with clades in low-richness cold-marine habitats having the highest rates. Unlike marine richness, freshwater diversity was largely derived from a few ancient colonizations, coupled with high diversification rates. Our results are congruent with the geological history of the marine tropics, and thus may apply to many other organisms. Beyond marine biogeography, we add to the growing number of cases where colonization and time-for-speciation explain large-scale richness patterns instead of diversification rates.",
+		"container-title": "Proceedings of the Royal Society B: Biological Sciences",
+		"DOI": "10.1098/rspb.2018.1314",
 		"issue": "1888",
-		"note": "publisher: The Royal Society",
+		"journalAbbreviation": "Proceedings of the Royal Society B: Biological Sciences",
+		"note": "number: 1888\npublisher: Royal Society",
 		"page": "20181314",
 		"title": "Explaining the ocean's richest biodiversity hotspot and global patterns of fish diversity",
+		"URL": "https://doi.org/10.1098/rspb.2018.1314",
 		"volume": "285",
 		"author": [
 			{
@@ -111,7 +86,7 @@
 			},
 			{
 				"family": "Hayashi",
-				"given": "Kenji T"
+				"given": "Kenji T."
 			},
 			{
 				"family": "Song",
@@ -119,25 +94,41 @@
 			},
 			{
 				"family": "Wiens",
-				"given": "John J"
+				"given": "John J."
 			}
 		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					12,
+					16
+				]
+			]
+		},
 		"issued": {
 			"date-parts": [
 				[
-					"2018"
+					"2018",
+					10,
+					10
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/DT3S5HZT",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/M9IKUV4G",
 		"type": "article-journal",
-		"container-title": "Genome biology",
+		"abstract": "To investigate molecular mechanisms underlying cell state changes, a crucial analysis is to identify differentially expressed (DE) genes along the pseudotime inferred from single-cell RNA-sequencing data. However, existing methods do not account for pseudotime inference uncertainty, and they have either ill-posed p-values or restrictive models. Here we propose PseudotimeDE, a DE gene identification method that adapts to various pseudotime inference methods, accounts for pseudotime inference uncertainty, and outputs well-calibrated p-values. Comprehensive simulations and real-data applications verify that PseudotimeDE outperforms existing methods in false discovery rate control and power.",
+		"container-title": "Genome Biology",
+		"DOI": "10.1186/s13059-021-02341-y",
+		"ISSN": "1474-760X",
 		"issue": "1",
-		"note": "publisher: BioMed Central London",
+		"journalAbbreviation": "Genome Biology",
+		"note": "number: 1",
 		"page": "124",
 		"title": "PseudotimeDE: inference of differential gene expression along cell pseudotime with well-calibrated p-values from single-cell RNA sequencing data",
+		"URL": "https://doi.org/10.1186/s13059-021-02341-y",
 		"volume": "22",
 		"author": [
 			{
@@ -152,18 +143,123 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2021"
+					"2021",
+					4,
+					29
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/QMRY77JG",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/DC5KE5P5",
 		"type": "article-journal",
-		"container-title": "Genome biology",
-		"note": "publisher: BioMed Central",
-		"page": "1–29",
+		"abstract": "A pressing challenge in single-cell transcriptomics is to benchmark experimental protocols and computational methods. A solution is to use computational simulators, but existing simulators cannot simultaneously achieve three goals: preserving genes, capturing gene correlations, and generating any number of cells with varying sequencing depths. To fill this gap, we propose scDesign2, a transparent simulator that achieves all three goals and generates high-fidelity synthetic data for multiple single-cell gene expression count-based technologies. In particular, scDesign2 is advantageous in its transparent use of probabilistic models and its ability to capture gene correlations via copulas.",
+		"container-title": "Genome Biology",
+		"DOI": "10.1186/s13059-021-02367-2",
+		"ISSN": "1474-760X",
+		"issue": "1",
+		"journalAbbreviation": "Genome Biology",
+		"note": "number: 1",
+		"page": "163",
+		"title": "scDesign2: a transparent simulator that generates high-fidelity single-cell gene expression count data with gene correlations captured",
+		"URL": "https://doi.org/10.1186/s13059-021-02367-2",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Sun",
+				"given": "Tianyi"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Wei Vivian"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/M6ADWPL2",
+		"type": "article-journal",
+		"abstract": "Single-cell RNA sequencing (scRNA-seq) captures whole transcriptome information of individual cells. While scRNA-seq measures thousands of genes, researchers are often interested in only dozens to hundreds of genes for a closer study. Then, a question is how to select those informative genes from scRNA-seq data. Moreover, single-cell targeted gene profiling technologies are gaining popularity for their low costs, high sensitivity and extra (e.g. spatial) information; however, they typically can only measure up to a few hundred genes. Then another challenging question is how to select genes for targeted gene profiling based on existing scRNA-seq data.Here, we develop the single-cell Projective Non-negative Matrix Factorization (scPNMF) method to select informative genes from scRNA-seq data in an unsupervised way. Compared with existing gene selection methods, scPNMF has two advantages. First, its selected informative genes can better distinguish cell types. Second, it enables the alignment of new targeted gene profiling data with reference data in a low-dimensional space to facilitate the prediction of cell types in the new data. Technically, scPNMF modifies the PNMF algorithm for gene selection by changing the initialization and adding a basis selection step, which selects informative bases to distinguish cell types. We demonstrate that scPNMF outperforms the state-of-the-art gene selection methods on diverse scRNA-seq datasets. Moreover, we show that scPNMF can guide the design of targeted gene profiling experiments and the cell-type annotation on targeted gene profiling data.The R package is open-access and available at https://github.com/JSB-UCLA/scPNMF. The data used in this work are available at Zenodo: https://doi.org/10.5281/zenodo.4797997.Supplementary data are available at Bioinformatics online.",
+		"container-title": "Bioinformatics",
+		"DOI": "10.1093/bioinformatics/btab273",
+		"ISSN": "1367-4803",
+		"issue": "Supplement_1",
+		"journalAbbreviation": "Bioinformatics",
+		"note": "number: Supplement_1",
+		"page": "i358-i366",
+		"title": "scPNMF: sparse gene encoding of single cells to facilitate gene selection for targeted gene profiling",
+		"URL": "https://doi.org/10.1093/bioinformatics/btab273",
+		"volume": "37",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Kexin"
+			},
+			{
+				"family": "Hemminger",
+				"given": "Zachary"
+			},
+			{
+				"family": "Wollman",
+				"given": "Roy"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					12,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/KHTTY3SF",
+		"type": "article-journal",
+		"abstract": "High-throughput biological data analysis commonly involves identifying features such as genes, genomic regions, and proteins, whose values differ between two conditions, from numerous features measured simultaneously. The most widely used criterion to ensure the analysis reliability is the false discovery rate (FDR), which is primarily controlled based on p-values. However, obtaining valid p-values relies on either reasonable assumptions of data distribution or large numbers of replicates under both conditions. Clipper is a general statistical framework for FDR control without relying on p-values or specific data distributions. Clipper outperforms existing methods for a broad range of applications in high-throughput data analysis.",
+		"container-title": "Genome Biology",
+		"DOI": "10.1186/s13059-021-02506-9",
+		"ISSN": "1474-760X",
+		"issue": "1",
+		"journalAbbreviation": "Genome Biology",
+		"note": "number: 1",
+		"page": "288",
 		"title": "Clipper: p-value-free FDR control on high-throughput data from two conditions",
+		"URL": "https://doi.org/10.1186/s13059-021-02506-9",
 		"volume": "22",
 		"author": [
 			{
@@ -200,7 +296,7 @@
 			},
 			{
 				"family": "Wang",
-				"given": "Leo D"
+				"given": "Leo D."
 			},
 			{
 				"family": "Li",
@@ -210,59 +306,25 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2021"
+					"2021",
+					10,
+					11
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/CT6LFDKU",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/M5496H9H",
 		"type": "article-journal",
-		"container-title": "Bioinformatics",
-		"issue": "Supplement_1",
-		"note": "publisher: Oxford University Press",
-		"page": "i358–i366",
-		"title": "scPNMF: sparse gene encoding of single cells to facilitate gene selection for targeted gene profiling",
-		"volume": "37",
-		"author": [
-			{
-				"family": "Song",
-				"given": "Dongyuan"
-			},
-			{
-				"family": "Li",
-				"given": "Kexin"
-			},
-			{
-				"family": "Hemminger",
-				"given": "Zachary"
-			},
-			{
-				"family": "Wollman",
-				"given": "Roy"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/D9TI5K2S",
-		"type": "article-journal",
-		"container-title": "Genome biology",
+		"abstract": "scDesign2 is a transparent simulator that generates high-fidelity single-cell gene expression count data with gene correlations captured. This article shows how to download and install the scDesign2 R package, how to fit probabilistic models (one per cell type) to real data and simulate synthetic data from the fitted models, and how to use scDesign2 to guide experimental design and benchmark computational methods. Finally, a note is given about cell clustering as a preprocessing step before model fitting and data simulation.",
+		"container-title": "Journal of Computational Biology",
+		"DOI": "10.1089/cmb.2021.0440",
 		"issue": "1",
-		"note": "publisher: BioMed Central London",
-		"page": "163",
-		"title": "scDesign2: a transparent simulator that generates high-fidelity single-cell gene expression count data with gene correlations captured",
-		"volume": "22",
+		"note": "number: 1\npublisher: Mary Ann Liebert, Inc., publishers",
+		"page": "23-26",
+		"title": "Simulating Single-Cell Gene Expression Count Data with Preserved Gene Correlations by scDesign2",
+		"URL": "https://doi.org/10.1089/cmb.2021.0440",
+		"volume": "29",
 		"author": [
 			{
 				"family": "Sun",
@@ -281,22 +343,89 @@
 				"given": "Jingyi Jessica"
 			}
 		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					12,
+					16
+				]
+			]
+		},
 		"issued": {
 			"date-parts": [
 				[
-					"2021"
+					"2022",
+					1,
+					1
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/PBUC563Y",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/7XV9UDCR",
 		"type": "article-journal",
-		"container-title": "Genome biology",
+		"abstract": "The number of cells measured in single-cell transcriptomic data has grown fast in recent years. For such large-scale data, subsampling is a powerful and often necessary tool for exploratory data analysis. However, the easiest random subsampling is not ideal from the perspective of preserving rare cell types. Therefore, diversity-preserving subsampling is required for fast exploration of cell types in a large-scale dataset. Here, we propose scSampler, an algorithm for fast diversity-preserving subsampling of single-cell transcriptomic data.scSampler is implemented in Python and is published under the MIT source license. It can be installed by “pip install scsampler” and used with the Scanpy pipline. The code is available on GitHub: https://github.com/SONGDONGYUAN1994/scsampler. An R interface is available at: https://github.com/SONGDONGYUAN1994/rscsampler.Supplementary data are available at Bioinformatics online.",
+		"container-title": "Bioinformatics",
+		"DOI": "10.1093/bioinformatics/btac271",
+		"ISSN": "1367-4803",
+		"issue": "11",
+		"journalAbbreviation": "Bioinformatics",
+		"note": "number: 11",
+		"page": "3126-3127",
+		"title": "scSampler: fast diversity-preserving subsampling of large-scale single-cell transcriptomic data",
+		"URL": "https://doi.org/10.1093/bioinformatics/btac271",
+		"volume": "38",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Xi",
+				"given": "Nan Miles"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			},
+			{
+				"family": "Wang",
+				"given": "Lin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					12,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					5,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/I5TNPCEL",
+		"type": "article-journal",
+		"abstract": "Researchers view vast zeros in single-cell RNA-seq data differently: some regard zeros as biological signals representing no or low gene expression, while others regard zeros as missing data to be corrected. To help address the controversy, here we discuss the sources of biological and non-biological zeros; introduce five mechanisms of adding non-biological zeros in computational benchmarking; evaluate the impacts of non-biological zeros on data analysis; benchmark three input data types: observed counts, imputed counts, and binarized counts; discuss the open questions regarding non-biological zeros; and advocate the importance of transparent analysis.",
+		"container-title": "Genome Biology",
+		"DOI": "10.1186/s13059-022-02601-5",
+		"ISSN": "1474-760X",
 		"issue": "1",
-		"note": "publisher: BioMed Central London",
+		"journalAbbreviation": "Genome Biology",
+		"note": "number: 1",
 		"page": "31",
 		"title": "Statistics or biology: the zero-inflation controversy about scRNA-seq data",
+		"URL": "https://doi.org/10.1186/s13059-022-02601-5",
 		"volume": "23",
 		"author": [
 			{
@@ -319,19 +448,26 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2022"
+					"2022",
+					1,
+					21
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/33YYFWAM",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/EMSCAHT9",
 		"type": "article-journal",
+		"abstract": "Modeling single-cell gene expression trends along cell pseudotime is a crucial analysis for exploring biological processes. Most existing methods rely on nonparametric regression models for their flexibility; however, nonparametric models often provide trends too complex to interpret. Other existing methods use interpretable but restrictive models. Since model interpretability and flexibility are both indispensable for understanding biological processes, the single-cell field needs a model that improves the interpretability and largely maintains the flexibility of nonparametric regression models.Here, we propose the single-cell generalized trend model (scGTM) for capturing a gene’s expression trend, which may be monotone, hill-shaped or valley-shaped, along cell pseudotime. The scGTM has three advantages: (i) it can capture non-monotonic trends that are easy to interpret, (ii) its parameters are biologically interpretable and trend informative, and (iii) it can flexibly accommodate common distributions for modeling gene expression counts. To tackle the complex optimization problems, we use the particle swarm optimization algorithm to find the constrained maximum likelihood estimates for the scGTM parameters. As an application, we analyze several single-cell gene expression datasets using the scGTM and show that scGTM can capture interpretable gene expression trends along cell pseudotime and reveal molecular insights underlying biological processes.The Python package scGTM is open-access and available at https://github.com/ElvisCuiHan/scGTM.Supplementary data are available at Bioinformatics online.",
 		"container-title": "Bioinformatics",
+		"DOI": "10.1093/bioinformatics/btac423",
+		"ISSN": "1367-4803",
 		"issue": "16",
-		"note": "publisher: Oxford University Press",
-		"page": "3927–3934",
+		"journalAbbreviation": "Bioinformatics",
+		"note": "number: 16",
+		"page": "3927-3934",
 		"title": "Single-cell generalized trend model (scGTM): a flexible and interpretable model of gene expression trend along cell pseudotime",
+		"URL": "https://doi.org/10.1093/bioinformatics/btac423",
 		"volume": "38",
 		"author": [
 			{
@@ -351,35 +487,47 @@
 				"given": "Jingyi Jessica"
 			}
 		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					12,
+					16
+				]
+			]
+		},
 		"issued": {
 			"date-parts": [
 				[
-					"2022"
+					"2022",
+					8,
+					10
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/3G26RKJW",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/NIV9U5IZ",
 		"type": "article-journal",
-		"container-title": "Journal of Computational Biology",
+		"abstract": "Benchmarking single-cell RNA-seq (scRNA-seq) and single-cell Assay for Transposase-Accessible Chromatin using sequencing (scATAC-seq) computational tools demands simulators to generate realistic sequencing reads. However, none of the few read simulators aim to mimic real data. To fill this gap, we introduce scReadSim, a single-cell RNA-seq and ATAC-seq read simulator that allows user-specified ground truths and generates synthetic sequencing reads (in a FASTQ or BAM file) by mimicking real data. At both read-sequence and read-count levels, scReadSim mimics real scRNA-seq and scATAC-seq data. Moreover, scReadSim provides ground truths, including unique molecular identifier (UMI) counts for scRNA-seq and open chromatin regions for scATAC-seq. In particular, scReadSim allows users to design cell-type-specific ground-truth open chromatin regions for scATAC-seq data generation. In benchmark applications of scReadSim, we show that UMI-tools achieves the top accuracy in scRNA-seq UMI deduplication, and HMMRATAC and MACS3 achieve the top performance in scATAC-seq peak calling.",
+		"container-title": "Nature Communications",
+		"DOI": "10.1038/s41467-023-43162-w",
+		"ISSN": "2041-1723",
 		"issue": "1",
-		"note": "publisher: Mary Ann Liebert, Inc., publishers 140 Huguenot Street, 3rd Floor New …",
-		"page": "23–26",
-		"title": "Simulating single-cell gene expression count data with preserved gene correlations by scDesign2",
-		"volume": "29",
+		"journalAbbreviation": "Nature Communications",
+		"note": "number: 1",
+		"page": "7482",
+		"title": "scReadSim: a single-cell RNA-seq and ATAC-seq read simulator",
+		"URL": "https://doi.org/10.1038/s41467-023-43162-w",
+		"volume": "14",
 		"author": [
 			{
-				"family": "Sun",
-				"given": "Tianyi"
+				"family": "Yan",
+				"given": "Guanao"
 			},
 			{
 				"family": "Song",
 				"given": "Dongyuan"
-			},
-			{
-				"family": "Li",
-				"given": "Wei Vivian"
 			},
 			{
 				"family": "Li",
@@ -389,54 +537,26 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2022"
+					"2023",
+					11,
+					18
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/YT9YZD4Z",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/8H6UXPHX",
 		"type": "article-journal",
-		"container-title": "Bioinformatics",
-		"issue": "11",
-		"note": "publisher: Oxford University Press",
-		"page": "3126–3127",
-		"title": "scSampler: fast diversity-preserving subsampling of large-scale single-cell transcriptomic data",
-		"volume": "38",
-		"author": [
-			{
-				"family": "Song",
-				"given": "Dongyuan"
-			},
-			{
-				"family": "Xi",
-				"given": "Nan Miles"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			},
-			{
-				"family": "Wang",
-				"given": "Lin"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/KFDF2GJT",
-		"type": "article-journal",
+		"abstract": "We present a statistical simulator, scDesign3, to generate realistic single-cell and spatial omics data, including various cell states, experimental designs and feature modalities, by learning interpretable parameters from real data. Using a unified probabilistic model for single-cell and spatial omics data, scDesign3 infers biologically meaningful parameters; assesses the goodness-of-fit of inferred cell clusters, trajectories and spatial locations; and generates in silico negative and positive controls for benchmarking computational tools.",
 		"container-title": "Nature Biotechnology",
+		"DOI": "10.1038/s41587-023-01772-1",
+		"ISSN": "1546-1696",
 		"issue": "2",
-		"note": "publisher: Nature Publishing Group US New York",
-		"page": "247–252",
+		"journalAbbreviation": "Nature Biotechnology",
+		"note": "number: 2",
+		"page": "247-252",
 		"title": "scDesign3 generates realistic in silico data for multimodal single-cell and spatial omics",
+		"URL": "https://doi.org/10.1038/s41587-023-01772-1",
 		"volume": "42",
 		"author": [
 			{
@@ -467,181 +587,26 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2024"
+					"2024",
+					2,
+					1
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/B2RNARPY",
+		"id": "http://zotero.org/users/local/kNFwy5Yy/items/WUXT8Q9U",
 		"type": "article-journal",
+		"abstract": "Homeodomains (HDs) are the second largest class of DNA binding domains (DBDs) among eukaryotic sequence-specific transcription factors (TFs) and are the TF structural class with the largest number of disease-associated mutations in the Human Gene Mutation Database (HGMD). Despite numerous structural studies and large-scale analyses of HD DNA binding specificity, HD-DNA recognition is still not fully understood. Here, we analyze 92 human HD mutants, including disease-associated variants and variants of uncertain significance (VUS), for their effects on DNA binding activity. Many of the variants alter DNA binding affinity and/or specificity. Detailed biochemical analysis and structural modeling identifies 14 previously unknown specificity-determining positions, 5 of which do not contact DNA. The same missense substitution at analogous positions within different HDs often exhibits different effects on DNA binding activity. Variant effect prediction tools perform moderately well in distinguishing variants with altered DNA binding affinity, but poorly in identifying those with altered binding specificity. Our results highlight the need for biochemical assays of TF coding variants and prioritize dozens of variants for further investigations into their pathogenicity and the development of clinical diagnostics and precision therapies.",
 		"container-title": "Nature Communications",
+		"DOI": "10.1038/s41467-024-47396-0",
+		"ISSN": "2041-1723",
 		"issue": "1",
-		"note": "publisher: Nature Publishing Group UK London",
-		"page": "7482",
-		"title": "scReadSim: a single-cell RNA-seq and ATAC-seq read simulator",
-		"volume": "14",
-		"author": [
-			{
-				"family": "Yan",
-				"given": "Guanao"
-			},
-			{
-				"family": "Song",
-				"given": "Dongyuan"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/ZP66SN6H",
-		"type": "article-journal",
-		"container-title": "Research Square",
-		"note": "publisher: American Journal Experts",
-		"title": "ClusterDE: a post-clustering differential expression (DE) method robust to false-positive inflation caused by double dipping",
-		"author": [
-			{
-				"family": "Song",
-				"given": "Dongyuan"
-			},
-			{
-				"family": "Li",
-				"given": "Kexin"
-			},
-			{
-				"family": "Ge",
-				"given": "Xinzhou"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/KAC62Z3C",
-		"type": "article-journal",
-		"container-title": "bioRxiv",
-		"note": "publisher: Cold Spring Harbor Laboratory Preprints",
-		"title": "Decoding Heterogenous Single-cell Perturbation Responses",
-		"author": [
-			{
-				"family": "Song",
-				"given": "Bicna"
-			},
-			{
-				"family": "Liu",
-				"given": "Dingyu"
-			},
-			{
-				"family": "Dai",
-				"given": "Weiwei"
-			},
-			{
-				"family": "McMyn",
-				"given": "Natalie"
-			},
-			{
-				"family": "Wang",
-				"given": "Qingyang"
-			},
-			{
-				"family": "Yang",
-				"given": "Dapeng"
-			},
-			{
-				"family": "Krejci",
-				"given": "Adam"
-			},
-			{
-				"family": "Vasilyev",
-				"given": "Anatoly"
-			},
-			{
-				"family": "Untermoser",
-				"given": "Nicole"
-			},
-			{
-				"family": "Loregger",
-				"given": "Anke"
-			},
-			{
-				"literal": "others"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/64RRIMMP",
-		"type": "article-journal",
-		"container-title": "Biorxiv",
-		"note": "publisher: Cold Spring Harbor Laboratory Preprints",
-		"title": "Benchmarking computational methods to identify spatially variable genes and peaks",
-		"author": [
-			{
-				"family": "Li",
-				"given": "Zhijian"
-			},
-			{
-				"family": "Patel",
-				"given": "Zain M"
-			},
-			{
-				"family": "Song",
-				"given": "Dongyuan"
-			},
-			{
-				"family": "Yan",
-				"given": "Guanao"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			},
-			{
-				"family": "Pinello",
-				"given": "Luca"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/MTAUUVEN",
-		"type": "article-journal",
-		"container-title": "Nature Communications",
-		"issue": "1",
-		"note": "publisher: Nature Publishing Group UK London",
+		"journalAbbreviation": "Nature Communications",
+		"note": "number: 1",
 		"page": "3110",
 		"title": "DNA binding analysis of rare variants in homeodomains reveals homeodomain specificity-determining residues",
+		"URL": "https://doi.org/10.1038/s41467-024-47396-0",
 		"volume": "15",
 		"author": [
 			{
@@ -650,11 +615,11 @@
 			},
 			{
 				"family": "Kimes",
-				"given": "Patrick K"
+				"given": "Patrick K."
 			},
 			{
 				"family": "Gisselbrecht",
-				"given": "Stephen S"
+				"given": "Stephen S."
 			},
 			{
 				"family": "Inukai",
@@ -662,11 +627,11 @@
 			},
 			{
 				"family": "Phanor",
-				"given": "Sabrina K"
+				"given": "Sabrina K."
 			},
 			{
 				"family": "Anderson",
-				"given": "James T"
+				"given": "James T."
 			},
 			{
 				"family": "Ramakrishnan",
@@ -674,7 +639,7 @@
 			},
 			{
 				"family": "Lipper",
-				"given": "Colin H"
+				"given": "Colin H."
 			},
 			{
 				"family": "Song",
@@ -682,125 +647,35 @@
 			},
 			{
 				"family": "Kurland",
-				"given": "Jesse V"
+				"given": "Jesse V."
 			},
 			{
-				"literal": "others"
+				"family": "Rogers",
+				"given": "Julia M."
+			},
+			{
+				"family": "Jeong",
+				"given": "Raehoon"
+			},
+			{
+				"family": "Blacklow",
+				"given": "Stephen C."
+			},
+			{
+				"family": "Irizarry",
+				"given": "Rafael A."
+			},
+			{
+				"family": "Bulyk",
+				"given": "Martha L."
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2024"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/DMCGXH3W",
-		"type": "thesis",
-		"genre": "PhD Thesis",
-		"publisher": "University of California, Los Angeles",
-		"title": "Improving Statistical Rigor in Single-Cell and Spatial Omics",
-		"author": [
-			{
-				"family": "Song",
-				"given": "Dongyuan"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2024"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/ZSERGJWE",
-		"type": "article-journal",
-		"container-title": "arXiv preprint arXiv:2309.13518",
-		"title": "Review of computational methods for estimating cell potency from single-cell RNA-seq data, with a detailed analysis of discrepancies between method description and code implementation",
-		"author": [
-			{
-				"family": "Wang",
-				"given": "Qingyang"
-			},
-			{
-				"family": "Zhai",
-				"given": "Zhiqian"
-			},
-			{
-				"family": "Song",
-				"given": "Dongyuan"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/FrGxSZBV/items/LJA3LHGV",
-		"type": "article-journal",
-		"container-title": "bioRxiv",
-		"title": "Spatial Single-Cell Mapping of Transcriptional Differences Across Genetic Backgrounds in Mouse Brains",
-		"author": [
-			{
-				"family": "Hemminger",
-				"given": "Zachary"
-			},
-			{
-				"family": "Sanchez-Tam",
-				"given": "Gabriela"
-			},
-			{
-				"family": "De Ocampo",
-				"given": "Haley"
-			},
-			{
-				"family": "Wang",
-				"given": "Aihui"
-			},
-			{
-				"family": "Underwood",
-				"given": "Thomas"
-			},
-			{
-				"family": "Xie",
-				"given": "Fangming"
-			},
-			{
-				"family": "Zhao",
-				"given": "Qiuying"
-			},
-			{
-				"family": "Song",
-				"given": "Dongyuan"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			},
-			{
-				"family": "Dong",
-				"given": "Hongwei"
-			},
-			{
-				"literal": "others"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2024"
+					"2024",
+					4,
+					10
 				]
 			]
 		}
