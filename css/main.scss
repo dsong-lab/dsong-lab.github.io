@@ -50,3 +50,44 @@ figcaption {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+/* Publications styling */
+.panel-heading {
+  padding: 15px;
+  margin-bottom: 5px;
+  border-radius: 3px;  /* Matches your carousel border-radius */
+  background-color: #0f79e4 !important;  /* background that works with Bootstrap */
+}
+
+.panel-heading a {
+  display: block;
+  text-decoration: none;
+}
+
+.panel-heading:hover {
+  background-color: #e9ecef;
+  transition: background-color 0.2s ease;
+}
+
+.panel-body {
+  padding: 20px;
+  border-left: 3px solid #a809a6;  /* Bootstrap primary color */
+  margin: 10px 0;
+}
+
+/* Publication section headers */
+.publications h1, .publications h2 {
+  margin-bottom: 20px;
+  color: #e40910;  /* Bootstrap dark color */
+}
+
+/* DOI link styling */
+.panel-heading a[href^="https://doi.org"] {
+  color: #0ee995;
+  font-size: 0.9em;
+}
+
+/* Link button styling - matches your Bootstrap theme */
+.panel-body .btn-outline-primary {
+  margin-top: 15px;
+}
