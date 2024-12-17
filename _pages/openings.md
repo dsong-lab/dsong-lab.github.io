@@ -12,7 +12,7 @@ We are a "dry lab" that studies genomic data science. If you have questions abou
 
 ### Ph.D. Students
 #### Current students
-Current students in [Ph.D. in Biomedical Science at UConn Health](https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/) are very welcome to rotate in our lab. Please email me (<dosong@uchc.edu>) or stop by my office (R1151).  
+Current students in [Ph.D. in Biomedical Science at UConn Health](https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/) are very welcome to rotate in our lab. If you are interested in computational genomics, please email me (<dosong@uchc.edu>) or stop by my office (R1151).  
 
 Graduate students in Statistics/CS from UConn Storrs may also contact me for potential Graduate Assistantships.
 

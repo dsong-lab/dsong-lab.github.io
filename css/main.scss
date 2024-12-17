@@ -52,42 +52,85 @@ figcaption {
 }
 
 /* Publications styling */
-.panel-heading {
-  padding: 15px;
-  margin-bottom: 5px;
-  border-radius: 3px;  /* Matches your carousel border-radius */
-  background-color: #0f79e4 !important;  /* background that works with Bootstrap */
-}
+//.panel-heading {
+//  padding: 15px;
+//  margin-bottom: 5px;
+//  border-radius: 3px;  /* Matches your carousel border-radius */
+//  background-color: #0f79e4 !important;  /* background that works with Bootstrap */
+//}
 
 .panel-heading a {
   display: block;
   text-decoration: none;
 }
 
-.panel-heading:hover {
-  background-color: #e9ecef;
-  transition: background-color 0.2s ease;
-}
+//.panel-heading:hover {
+//  background-color: #e9ecef;
+//  transition: background-color 0.2s ease;
+//}
 
-.panel-body {
-  padding: 20px;
-  border-left: 3px solid #a809a6;  /* Bootstrap primary color */
-  margin: 10px 0;
-}
+//.panel-body {
+//  padding: 20px;
+//  border-left: 3px solid #a809a6;  /* Bootstrap primary color */
+//  margin: 10px 0;
+//}
 
 /* Publication section headers */
-.publications h1, .publications h2 {
-  margin-bottom: 20px;
-  color: #e40910;  /* Bootstrap dark color */
-}
+//.publications h1, .publications h2 {
+//  margin-bottom: 20px;
+//  color: #e40910;  /* Bootstrap dark color */
+//}
 
 /* DOI link styling */
 .panel-heading a[href^="https://doi.org"] {
-  color: #0ee995;
+  color: #B0E0E6;
   font-size: 0.9em;
 }
 
 /* Link button styling - matches your Bootstrap theme */
 .panel-body .btn-outline-primary {
   margin-top: 15px;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+  background-color: blue;
+  color: white;
+  padding: 18px;
+  text-align: center;
+}
+
+/* Navigation Menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
