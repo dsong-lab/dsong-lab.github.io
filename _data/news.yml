@@ -1,21 +1,11 @@
-- date: 05/09/19
-  title: "Another great thing"
+- date: 12/17/2024
+  title: "ClusterDE is accepted by RECOMB2025"
   tags:
-    - some
-    - tags
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Eu turpis egestas pretium aenean. Luctus venenatis lectus magna fringilla
-    urna porttitor. Lorem ipsum dolor sit amet. Pellentesque massa placerat
-    duis ultricies. Commodo viverra maecenas accumsan lacus vel.
+    - pub
+  content: Our ClusterDE paper is accepted by <a href="https://recomb.org/recomb2025/">RECOMB2025</a>.
 
-- date: 03/09/19
-  title: "Something great"
+- date: 11/01/2024
+  title: "Our lab is starting"
   tags:
-    - some
-    - tags
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Eu turpis egestas pretium aenean. Luctus venenatis lectus magna fringilla
-    urna porttitor. Lorem ipsum dolor sit amet. Pellentesque massa placerat
-    duis ultricies. Commodo viverra maecenas accumsan lacus vel.
+    - lab
+  content: The DS lab starts at Department of Genetics and Genome Sciences, UConn Health.
