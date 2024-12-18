@@ -10,7 +10,7 @@ permalink: /
 
 Welcome to the DS lab at UConn Health! 
 
-The DS Lab (**D**ata **S**cience or **D**ongyuan **S**ong) studies various data science problems in genomics. Our research focuses on developing novel computational tools for analyzing high-throughput "omics" data, especially for **single-cell** and **spatial** omics. By integrating statistical modeling, machine learning, and bioinformatics, the lab aims to provide a more rigorous interpretation of cellular variation from different biological systems.  
+The DS Lab (**D**ongyuan **S**ong or **D**ata **S**cience) studies various data science problems in genomics. Our research focuses on developing novel computational tools for analyzing high-throughput "omics" data, especially for **single-cell** and **spatial** omics. By integrating statistical modeling, machine learning, and bioinformatics, the lab aims to provide a more rigorous interpretation of cellular variation from different biological systems.  
 
 <!-- Some interesting questions in our lab include:
 1. Creating Simulated Data: How can we use computers to generate fake omics data that looks like real experimental data?
