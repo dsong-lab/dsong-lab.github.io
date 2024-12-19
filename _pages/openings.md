@@ -5,9 +5,6 @@ excerpt: "RT2 Lab -- Openings"
 sitemap: false
 permalink: /openings/
 ---
-
-# Positions
-
 We are a "dry lab" that studies genomic data science. If you have questions about any of these positions, please email me for more information (<dosong@uchc.edu>).
 
 ### Ph.D. Students
