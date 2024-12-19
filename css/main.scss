@@ -83,7 +83,7 @@ figcaption {
 
 /* DOI link styling */
 .panel-heading a[href^="https://doi.org"] {
-  color: #B0E0E6;
+  color: #7C878E;
   font-size: 0.9em;
 }
 
@@ -96,13 +96,13 @@ figcaption {
 body {
   font-family: Arial, sans-serif;
   font-size: 15px;
-  color: #333;
+  color: #000E2F;
   background-color: #f9f9f9;
 }
 
 /* Header Styles */
 header {
-  background-color: blue;
+  background-color: #000E2F;
   color: white;
   padding: 18px;
   text-align: center;
@@ -126,7 +126,7 @@ nav ul li a {
 
 /* Footer Styles */
 footer {
-  background-color: #222;
+  background-color: #000E2F;
   color: white;
   text-align: center;
   padding: 10px;
