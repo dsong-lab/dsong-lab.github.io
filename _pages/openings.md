@@ -5,7 +5,7 @@ excerpt: "RT2 Lab -- Openings"
 sitemap: false
 permalink: /openings/
 ---
-We are a "dry lab" that studies genomic data science. If you have questions about any of these positions, please email me for more information (<dosong@uchc.edu>).
+We are a "dry lab" that studies genomic data science. Our lab is located in [Department of Genetics and Genome Sciences](https://health.uconn.edu/genetics/). If you have questions about any of these positions, please email me for more information (<dosong@uchc.edu>).
 
 ### Ph.D. Students
 #### Current students
