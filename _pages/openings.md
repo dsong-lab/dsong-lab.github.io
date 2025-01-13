@@ -27,3 +27,6 @@ Our lab is seeking **one postdoctoral researcher** in the field of bioinformatic
 
 #### Application
 Please email me (<dosong@uchc.edu>) with "Postdoc application: + YOUR NAME" as the subject line and include your CV (including a list of references) and a research statement (1-2 pages). Review of applications will begin immediately and continue until the position is filled.
+
+### Undergraduate Students / Summer Interns
+If you are an undergraduate student at UConn, [Health Research Program](https://ugradresearch.uconn.edu/hrp/) will be a wonderful opportunity for you. The application link for my lab is: [HRP SU25-28](https://ugradresearch.uconn.edu/hrp/hrpsu25-28/). The application deadline is **Monday, February 17, 2025**.
