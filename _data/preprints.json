@@ -1,4 +1,131 @@
-[
+[		{
+	"id": "http://zotero.org/users/local/FrGxSZBV/items/347XBBZ5",
+	"type": "article",
+	"abstract": "Abstract\n          Cellular organization is central to tissue function and homeostasis, influencing development, disease progression, and therapeutic outcomes. The emergence of spatial omics technologies, including spatial transcriptomics and proteomics, has enabled the integration of molecular and histological features within tissues. Analyzing these multimodal data presents unique challenges, including variable resolutions, imperfect tissue alignment, and limited or variable spatial coverage. To address these issues, we introduce CORAL, a probabilistic deep generative model that leverages graph attention mechanisms to learn expressive, integrated representations of multimodal spatial omics data. CORAL deconvolves low-resolution spatial data into high-resolution single-cell profiles and detects functional spatial domains. It also characterizes cell-cell interactions and elucidates disease-relevant spatial features. Validated on synthetic data and experimental datasets, including Stero-CITE-seq data from mouse thymus, and paired CODEX and Visium data from hepatocellular carcinoma, CORAL demonstrates robustness and versatility. In hepatocellular carcinoma, CORAL uncovered key immune cell subsets that drive the failure of response to immunotherapy, highlighting its potential to advance spatial single-cell analyses and accelerate translational research.",
+	"DOI": "10.1101/2025.02.01.636038",
+	"language": "en",
+	"license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+	"publisher": "Bioinformatics",
+	"source": "DOI.org (Crossref)",
+	"title": "Learning single-cell spatial context through integrated spatial multiomics with CORAL",
+	"URL": "http://biorxiv.org/lookup/doi/10.1101/2025.02.01.636038",
+	"author": [
+		{
+			"family": "He",
+			"given": "Siyu"
+		},
+		{
+			"family": "Bieniosek",
+			"given": "Matthew"
+		},
+		{
+			"family": "<b>Song</b>",
+			"given": "Dongyuan"
+		},
+		{
+			"family": "Zhou",
+			"given": "Jingtian"
+		},
+		{
+			"family": "Chidester",
+			"given": "Benjamin"
+		},
+		{
+			"family": "Wu",
+			"given": "Zhenqin"
+		},
+		{
+			"family": "Boen",
+			"given": "Joseph"
+		},
+		{
+			"family": "Sharma",
+			"given": "Padmanee"
+		},
+		{
+			"family": "Trevino",
+			"given": "Alexandro E."
+		},
+		{
+			"family": "Zou",
+			"given": "James"
+		}
+	],
+	"accessed": {
+		"date-parts": [
+			[
+				"2025",
+				3,
+				6
+			]
+		]
+	},
+	"issued": {
+		"date-parts": [
+			[
+				"2025",
+				2,
+				6
+			]
+		]
+	}
+},
+{
+	"id": "http://zotero.org/users/local/FrGxSZBV/items/6W7ATBDX",
+	"type": "article",
+	"abstract": "Double dipping is a well-known pitfall in single-cell and spatial transcriptomics data analysis: after a clustering algorithm finds clusters as putative cell types or spatial domains, statistical tests are applied to the same data to identify differentially expressed (DE) genes as potential cell-type or spatial-domain markers. Because the genes that contribute to clustering are inherently likely to be identified as DE genes, double dipping can result in false-positive cell-type or spatial-domain markers, especially when clusters are spurious, leading to ambiguously defined cell types or spatial domains. To address this challenge, we propose ClusterDE, a statistical method designed to identify post-clustering DE genes as reliable markers of cell types and spatial domains, while controlling the false discovery rate (FDR) regardless of clustering quality. The core of ClusterDE involves generating synthetic null data as an in silico negative control that contains only one cell type or spatial domain, allowing for the detection and removal of spurious discoveries caused by double dipping. We demonstrate that ClusterDE controls the FDR and identifies canonical cell-type and spatial-domain markers as top DE genes, distinguishing them from housekeeping genes. ClusterDE’s ability to discover reliable markers, or the absence of such markers, can be used to determine whether two ambiguous clusters should be merged. Additionally, ClusterDE is compatible with state-of-the-art analysis pipelines like Seurat and Scanpy.",
+	"DOI": "10.1101/2023.07.21.550107",
+	"language": "en",
+	"license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+	"publisher": "Bioinformatics",
+	"source": "DOI.org (Crossref)",
+	"title": "Synthetic control removes spurious discoveries from double dipping in single-cell and spatial transcriptomics data analyses",
+	"URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.21.550107",
+	"author": [
+		{
+			"family": "Song",
+			"given": "Dongyuan"
+		},
+		{
+			"family": "Chen",
+			"given": "Siqi"
+		},
+		{
+			"family": "Lee",
+			"given": "Christy"
+		},
+		{
+			"family": "Li",
+			"given": "Kexin"
+		},
+		{
+			"family": "Ge",
+			"given": "Xinzhou"
+		},
+		{
+			"family": "Li",
+			"given": "Jingyi Jessica"
+		}
+	],
+	"accessed": {
+		"date-parts": [
+			[
+				"2025",
+				3,
+				6
+			]
+		]
+	},
+	"issued": {
+		"date-parts": [
+			[
+				"2023",
+				7,
+				25
+			]
+		]
+	}
+},
 	{
 		"id": "http://zotero.org/users/local/kNFwy5Yy/items/IWAE2NF6",
 		"type": "article-journal",
@@ -110,123 +237,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/local/kNFwy5Yy/items/8QL9XYQP",
-		"type": "article-journal",
-		"abstract": "Understanding diverse responses of individual cells to the same perturbation is central to many biological and biomedical problems. Current methods, however, do not precisely quantify the strength of perturbation responses and, more importantly, reveal new biological insights from heterogeneity in responses. Here we introduce the perturbation-response score (PS), based on constrained quadratic optimization, to quantify diverse perturbation responses at a single-cell level. Applied to single-cell transcriptomes of large-scale genetic perturbation datasets (e.g., Perturb-seq), PS outperforms existing methods for quantifying partial gene perturbation responses. In addition, PS presents two major advances. First, PS enables large-scale, single-cell-resolution dosage analysis of perturbation, without the need to titrate perturbation strength. By analyzing the dose-response patterns of over 2,000 essential genes in Perturb-seq, we identify two distinct patterns, depending on whether a moderate reduction in their expression induces strong downstream expression alterations. Second, PS identifies intrinsic and extrinsic biological determinants of perturbation responses. We demonstrate the application of PS in contexts such as T cell stimulation, latent HIV-1 expression, and pancreatic cell differentiation. Notably, PS unveiled a previously unrecognized, cell-type-specific role of coiled-coil domain containing 6 (CCDC6) in guiding liver and pancreatic lineage decisions, where CCDC6 knockouts drive the endoderm cell differentiation towards liver lineage, rather than pancreatic lineage. The PS approach provides an innovative method for dose-to-function analysis and will enable new biological discoveries from single-cell perturbation datasets.One sentence summary We present a method to quantify diverse perturbation responses and discover novel biological insights in single-cell perturbation datasets.",
-		"container-title": "bioRxiv",
-		"DOI": "10.1101/2023.10.30.564796",
-		"page": "2023.10.30.564796",
-		"title": "Decoding Heterogenous Single-cell Perturbation Responses",
-		"URL": "http://biorxiv.org/content/early/2023/11/29/2023.10.30.564796.abstract",
-		"author": [
-			{
-				"family": "Song",
-				"given": "Bicna"
-			},
-			{
-				"family": "Liu",
-				"given": "Dingyu"
-			},
-			{
-				"family": "Dai",
-				"given": "Weiwei"
-			},
-			{
-				"family": "McMyn",
-				"given": "Natalie"
-			},
-			{
-				"family": "Wang",
-				"given": "Qingyang"
-			},
-			{
-				"family": "Yang",
-				"given": "Dapeng"
-			},
-			{
-				"family": "Krejci",
-				"given": "Adam"
-			},
-			{
-				"family": "Vasilyev",
-				"given": "Anatoly"
-			},
-			{
-				"family": "Untermoser",
-				"given": "Nicole"
-			},
-			{
-				"family": "Loregger",
-				"given": "Anke"
-			},
-			{
-				"family":"<b>Song</b>",
-                "given":"Dongyuan"
-			},
-			{
-				"family": "Williams",
-				"given": "Breanna"
-			},
-			{
-				"family": "Rosen",
-				"given": "Bess"
-			},
-			{
-				"family": "Cheng",
-				"given": "Xiaolong"
-			},
-			{
-				"family": "Chao",
-				"given": "Lumen"
-			},
-			{
-				"family": "Kale",
-				"given": "Hanuman T."
-			},
-			{
-				"family": "Zhang",
-				"given": "Hao"
-			},
-			{
-				"family": "Diao",
-				"given": "Yarui"
-			},
-			{
-				"family": "Bürckstümmer",
-				"given": "Tilmann"
-			},
-			{
-				"family": "Siliciano",
-				"given": "Jenet M."
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			},
-			{
-				"family": "Siliciano",
-				"given": "Robert"
-			},
-			{
-				"family": "Huangfu",
-				"given": "Danwei"
-			},
-			{
-				"family": "Li",
-				"given": "Wei"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					10,
-					30
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/local/kNFwy5Yy/items/GRQ9736W",
 		"type": "article-journal",
 		"abstract": "In single-cell RNA sequencing (scRNA-seq) analysis, a key challenge is inferring hidden cellular dynamics from static cell snapshots. Various computational methods have been developed to address this, focusing on perspectives like pseudotime trajectories, RNA velocities, and estimating the differentiation potential of cells, often referred to as \"cell potency.\" This review summarizes 14 methods for defining cell potency from scRNA-seq data, categorizing them into average-based, entropy-based, and correlation-based methods based on how they summarize gene expression levels into a potency measure. We highlight the key similarities and differences within and between these categories, offering a high-level intuition for each method. Additionally, we use unified mathematical notations to detail each method's methodology and summarize their usage complexities, including parameters, required inputs, and differences between published descriptions and software implementations. We conclude that cell potency estimation remains an open question without a consensus on the optimal approach, emphasizing the need for benchmark datasets and studies. This review aims to provide a foundation for future benchmark studies, while also addressing the broader challenge of comparing methods that infer cellular dynamics from scRNA-seq data through various perspectives, including pseudotime trajectories, RNA velocities, and cell potency.",
@@ -259,43 +269,6 @@
 					"2023",
 					9,
 					24
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/kNFwy5Yy/items/CPN33H4H",
-		"type": "article-journal",
-		"abstract": "In typical single-cell RNA-seq (scRNA-seq) data analysis, a clustering algorithm is applied to find putative cell types as clusters, and then a statistical differential expression (DE) test is used to identify the differentially expressed (DE) genes between the cell clusters. However, this common procedure uses the same data twice, an issue known as “double dipping”: the same data is used to define both cell clusters and DE genes, leading to false-positive DE genes even when the cell clusters are spurious. To overcome this challenge, we propose ClusterDE, a post-clustering DE test for controlling the false discovery rate (FDR) of identified DE genes regardless of clustering quality. The core idea of ClusterDE is to generate real-data-based synthetic null data with only one cluster, as a counterfactual in contrast to the real data, for evaluating the whole procedure of clustering followed by a DE test. Using comprehensive simulation and real data analysis, we show that ClusterDE has not only solid FDR control but also the ability to find cell-type marker genes that are biologically meaningful. ClusterDE is fast, transparent, and adaptive to a wide range of clustering algorithms and DE tests. Besides scRNA-seq data, ClusterDE is generally applicable to post-clustering DE analysis, including single-cell multi-omics data analysis.Competing Interest StatementThe authors have declared no competing interest.",
-		"container-title": "bioRxiv",
-		"DOI": "10.1101/2023.07.21.550107",
-		"page": "2023.07.21.550107",
-		"title": "ClusterDE: a post-clustering differential expression (DE) method robust to false-positive inflation caused by double dipping",
-		"URL": "http://biorxiv.org/content/early/2023/07/25/2023.07.21.550107.abstract",
-		"author": [
-			{
-				"family":"<b>Song</b>",
-                "given":"Dongyuan"
-			},
-			{
-				"family": "Li",
-				"given": "Kexin"
-			},
-			{
-				"family": "Ge",
-				"given": "Xinzhou"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					7,
-					21
 				]
 			]
 		}

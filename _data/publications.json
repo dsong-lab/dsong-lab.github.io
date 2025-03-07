@@ -1,5 +1,133 @@
 [
     {
+		"id": "http://zotero.org/users/local/FrGxSZBV/items/P2WGMTNI",
+		"type": "article-journal",
+		"container-title": "Nature Cell Biology",
+		"DOI": "10.1038/s41556-025-01626-9",
+		"ISSN": "1465-7392, 1476-4679",
+		"journalAbbreviation": "Nat Cell Biol",
+		"language": "en",
+		"source": "DOI.org (Crossref)",
+		"title": "Decoding heterogeneous single-cell perturbation responses",
+		"URL": "https://www.nature.com/articles/s41556-025-01626-9",
+		"author": [
+			{
+				"family": "Song",
+				"given": "Bicna"
+			},
+			{
+				"family": "Liu",
+				"given": "Dingyu"
+			},
+			{
+				"family": "Dai",
+				"given": "Weiwei"
+			},
+			{
+				"family": "McMyn",
+				"given": "Natalie F."
+			},
+			{
+				"family": "Wang",
+				"given": "Qingyang"
+			},
+			{
+				"family": "Yang",
+				"given": "Dapeng"
+			},
+			{
+				"family": "Krejci",
+				"given": "Adam"
+			},
+			{
+				"family": "Vasilyev",
+				"given": "Anatoly"
+			},
+			{
+				"family": "Untermoser",
+				"given": "Nicole"
+			},
+			{
+				"family": "Loregger",
+				"given": "Anke"
+			},
+			{
+				"family": "<b>Song</b>",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Williams",
+				"given": "Breanna"
+			},
+			{
+				"family": "Rosen",
+				"given": "Bess"
+			},
+			{
+				"family": "Cheng",
+				"given": "Xiaolong"
+			},
+			{
+				"family": "Chao",
+				"given": "Lumen"
+			},
+			{
+				"family": "Kale",
+				"given": "Hanuman T."
+			},
+			{
+				"family": "Zhang",
+				"given": "Hao"
+			},
+			{
+				"family": "Diao",
+				"given": "Yarui"
+			},
+			{
+				"family": "Bürckstümmer",
+				"given": "Tilmann"
+			},
+			{
+				"family": "Siliciano",
+				"given": "Janet D."
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			},
+			{
+				"family": "Siliciano",
+				"given": "Robert F."
+			},
+			{
+				"family": "Huangfu",
+				"given": "Danwei"
+			},
+			{
+				"family": "Li",
+				"given": "Wei"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					3,
+					6
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					26
+				]
+			]
+		}
+	},
+    {
         "id":"http://zotero.org/users/local/kNFwy5Yy/items/WUXT8Q9U",
         "type":"article-journal",
         "abstract":"Homeodomains (HDs) are the second largest class of DNA binding domains (DBDs) among eukaryotic sequence-specific transcription factors (TFs) and are the TF structural class with the largest number of disease-associated mutations in the Human Gene Mutation Database (HGMD). Despite numerous structural studies and large-scale analyses of HD DNA binding specificity, HD-DNA recognition is still not fully understood. Here, we analyze 92 human HD mutants, including disease-associated variants and variants of uncertain significance (VUS), for their effects on DNA binding activity. Many of the variants alter DNA binding affinity and/or specificity. Detailed biochemical analysis and structural modeling identifies 14 previously unknown specificity-determining positions, 5 of which do not contact DNA. The same missense substitution at analogous positions within different HDs often exhibits different effects on DNA binding activity. Variant effect prediction tools perform moderately well in distinguishing variants with altered DNA binding affinity, but poorly in identifying those with altered binding specificity. Our results highlight the need for biochemical assays of TF coding variants and prioritize dozens of variants for further investigations into their pathogenicity and the development of clinical diagnostics and precision therapies.",
