@@ -8,7 +8,7 @@ permalink: /
 
 ### About the DS Lab
 
-Welcome to the DS lab at UConn Health! We are looking for motivated **PhD students, Postdocs, and Undergraduate Interns** to join our team (see [Opennings](https://dsong-lab.github.io/openings/))!
+Welcome to the DS lab at University of Connecticut Health Center (UConn Health)! We are looking for motivated **PhD students, Postdocs, and Undergraduate Interns** to join our team (see [Openings](https://dsong-lab.github.io/openings/))!
 
 The DS Lab (**D**ongyuan **S**ong or **D**ata **S**cience) studies various data science problems in genomics. Our research focuses on developing novel computational tools for analyzing high-throughput "omics" data, especially for **single-cell and spatial omics**. By integrating statistical modeling, machine learning, and bioinformatics, the lab aims to provide a more rigorous interpretation of cellular variation from different biological systems.  
 
