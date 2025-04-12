@@ -9,7 +9,7 @@ We are recruting students now! We are a computational lab that studies various p
 
 ### Ph.D. Students
 #### Current students
-Current students in [Ph.D. in Biomedical Science at UConn Health](https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/) are encouraged to rotate in our lab. If you are interested in computational genomics, please email me (<dosong@uchc.edu>) or stop by my office (R1151). We welcome students from diverse backgrounds.
+Current students in [Ph.D. in Biomedical Science at UConn Health](https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/) are encouraged to rotate in our lab. If you are interested in computational genomics, please email me (<dosong@uchc.edu>) or stop by my office (R1151). We welcome students from diverse backgrounds. I serve on two Area of Concentrations: [Genetics and Developmental Biology](Primary)(https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/genetics-and-developmental-biology-area-of-concentration/) and [Systems Biology](https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/cell-analysis-and-modeling-graduate-program/).
 
 Graduate students in Statistics/CS from UConn Storrs may also contact me for potential Graduate Assistantships.
 
