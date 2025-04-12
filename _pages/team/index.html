@@ -34,10 +34,10 @@ permalink: /team/
 {% endfor %}
 
 
-<!-- Staff -->
+<!-- Postdocs -->
 
-<h2><a id="staff"></a>Staff</h2>
-{% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
+<h2><a id="postdocs"></a>Postdocs</h2>
+{% assign members = site.posts | where: 'category', 'postdocs' | sort: 'date' %}
 {% for member in members %}
 <div class="card team-member-card">
     <div class="row mt-3">

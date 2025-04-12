@@ -5,7 +5,7 @@ title: Dongyuan Song
 image: Dongyuan.jpg
 role: Principal Investigator
 highestedu: Ph.D. in Bioinformatics, UCLA
-permalink: 'team/researcher-name'
+permalink: 'team/Dongyuan'
 social:
     twitter: https://x.com/SongDongyuan/
     #linkedin: https://www.linkedin.com/
@@ -17,7 +17,7 @@ social:
 education:
      - Ph.D. in Bioinformatics, UCLA, 2024
      - MS in Computational Biology & Quantitative Genetics, Harvard Scool of Public Health, 2019
-     - BS in Biological Science, Shanghai, China, 2017
+     - BS in Biological Science, Fudan University, 2017
 ---
 
-Dongyuan Song (宋东源) is a tenure-track Assistant Professor in [Department of Genetics and Genome Sciences, University of Connecticut, Health Center (UConn Health)](https://health.uconn.edu/genetics/). Before joining UConn Health in November 2024, he finished his PhD training in statistical genomics with [Jingyi Jessica Li](http://jsb.ucla.edu/) at UCLA. He did his undergraduate research in evolutionary biology with Baorong Lu at Fudan and master research in bioinformatics with [Rafael Irizarry](https://rafalab.dfci.harvard.edu/) at Dana-Farber Cancer Institute. His research focuses on developing computational methods for analyzing modern "omics" data, especially for **single-cell and spatial omics**. In recent years, he has publised a series of bioinformatic tools: [scDesign3 (Nature Biotechnology, 2024)](https://doi.org/10.1038/s41587-023-01772-1), [scReadSim (Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-43162-w), [scSampler (Bioinformatics, 2022)](https://doi.org/10.1093/bioinformatics/btac271), [scGTM (Bioinformatics, 2022)](https://academic.oup.com/bioinformatics/article/38/16/3927/6618524), [scDesign2 (Genome Biology, 2021)](https://doi.org/10.1186/s13059-021-02367-2), [PseudotimeDE (Genome Biology, 2021)](https://doi.org/10.1186/s13059-021-02341-y), [scPNMF (Bioinformatics, 2021)](https://doi.org/10.1093/bioinformatics/btab273).
+Hi, I am Dongyuan Song (宋东源), a tenure-track Assistant Professor in [Department of Genetics and Genome Sciences, University of Connecticut, Health Center (UConn Health)](https://health.uconn.edu/genetics/). Before joining UConn Health in November 2024, I finished my PhD training in statistical genomics with [Jingyi Jessica Li](http://jsb.ucla.edu/) at UCLA. I did my undergraduate research in evolutionary biology with Baorong Lu at Fudan and master research in bioinformatics with [Rafael Irizarry](https://rafalab.dfci.harvard.edu/) at Dana-Farber Cancer Institute. My research focuses on developing computational methods for analyzing modern "omics" data, especially for **single-cell and spatial omics**. In recent years, I have publised a series of bioinformatic tools: [scDesign3 (Nature Biotechnology, 2024)](https://doi.org/10.1038/s41587-023-01772-1), [scReadSim (Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-43162-w), [scSampler (Bioinformatics, 2022)](https://doi.org/10.1093/bioinformatics/btac271), [scGTM (Bioinformatics, 2022)](https://academic.oup.com/bioinformatics/article/38/16/3927/6618524), [scDesign2 (Genome Biology, 2021)](https://doi.org/10.1186/s13059-021-02367-2), [PseudotimeDE (Genome Biology, 2021)](https://doi.org/10.1186/s13059-021-02341-y), [scPNMF (Bioinformatics, 2021)](https://doi.org/10.1093/bioinformatics/btab273).
