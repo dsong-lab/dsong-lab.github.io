@@ -2,7 +2,7 @@
 layout: member
 category: pi
 title: Dongyuan Song
-image: Dongyuan.jpg
+image: DongyuanSong.jpg
 role: Principal Investigator
 highestedu: Ph.D. in Bioinformatics, UCLA
 permalink: 'team/Dongyuan'

@@ -1,4 +1,125 @@
-[
+[{
+		"id": "http://zotero.org/users/16008677/items/B3BWXZIC",
+		"type": "article",
+        "container-title": "Nature Communications",
+		"abstract": "The transcriptome provides a highly informative molecular phenotype to connect genotype to phenotype and is most frequently measured by RNA-sequencing (RNA-seq). Therefore, an ultimate goal is to perturb every gene and measure changes in the transcriptome. However, this remains challenging, especially in intact organisms due to different experimental and computational challenges. Here, we present ‘Worm Perturb-Seq (WPS)’, which provides high-resolution RNA-seq profiles for hundreds of replicate perturbations at a time in a living animal. WPS introduces multiple experimental advances that combine strengths of bulk and single cell RNA-seq, and that further provides an analytical framework, EmpirDE, that leverages the unique power of the large WPS datasets. EmpirDE identifies differentially expressed genes (DEGs) by using gene-specific empirical null distributions, rather than control conditions alone, thereby systematically removing technical biases and improving statistical rigor. We applied WPS to 103\n            Caenhorhabditis elegans\n            nuclear hormone receptors (NHRs) to delineate a Gene Regulatory Network (GRN) and found that this GRN presents a striking ‘pairwise modularity’ where pairs of NHRs regulate shared target genes. We envision that the experimental and analytical advances of WPS should be useful not only for\n            C. elegans\n            , but will be broadly applicable to other models, including human cells.",
+		"DOI": "https://doi.org/10.1038/s41467-025-60154-0",
+		"language": "en",
+		"license": "http://creativecommons.org/licenses/by-nc/4.0/",
+		"publisher": "Genomics",
+		"source": "DOI.org (Crossref)",
+		"title": "Worm Perturb-Seq: massively parallel whole-animal RNAi and RNA-seq",
+		"title-short": "Worm Perturb-Seq",
+		"URL": "https://doi.org/10.1038/s41467-025-60154-0",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Hefei"
+			},
+			{
+				"family": "Li",
+				"given": "Xuhang"
+			},
+			{
+				"family": "<b>Song</b>",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Yukselen",
+				"given": "Onur"
+			},
+			{
+				"family": "Nanda",
+				"given": "Shivani"
+			},
+			{
+				"family": "Kucukural",
+				"given": "Alper"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			},
+			{
+				"family": "Garber",
+				"given": "Manuel"
+			},
+			{
+				"family": "Walhout",
+				"given": "Albertha J.M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					6,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					3
+				]
+			]
+		}
+	},
+    {
+		"id": "http://zotero.org/users/16008677/items/JGE2R8KQ",
+		"type": "article-journal",
+		"container-title": "Journal of the American Statistical Association",
+		"DOI": "10.1080/01621459.2024.2412191",
+		"ISSN": "0162-1459, 1537-274X",
+		"issue": "549",
+		"journalAbbreviation": "Journal of the American Statistical Association",
+		"language": "en",
+		"page": "174-175",
+		"source": "DOI.org (Crossref)",
+		"title": "Comment on “Data Fission: Splitting a Single Data Point” Data Fission for Unsupervised Learning: A Discussion on Post-Clustering Inference and the Challenges of Debiasing",
+		"title-short": "Comment on “Data Fission",
+		"URL": "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2412191",
+		"volume": "120",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Changhu"
+			},
+			{
+				"family": "Ge",
+				"given": "Xinzhou"
+			},
+			{
+				"family": "<b>Song</b>",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					6,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					1,
+					2
+				]
+			]
+		}
+	},
     {
 		"id": "http://zotero.org/users/local/FrGxSZBV/items/P2WGMTNI",
 		"type": "article-journal",
