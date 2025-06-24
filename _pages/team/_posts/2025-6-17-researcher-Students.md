@@ -18,4 +18,4 @@ education:
  - BS in Applied Mathematics and Statistics, Emory University
 ---
 
-To be added.
+I'm currently working as a research assistant in Dr. Song’s lab. I have a background in statistical genetics and computational biology, with research interests in single-cell transcriptomics, complex trait genetics, and rare diseases. I’m motivated by the potential of computational approaches to reveal biological insights and support disease research.
