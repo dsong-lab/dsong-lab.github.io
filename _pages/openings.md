@@ -6,7 +6,7 @@ sitemap: false
 permalink: /openings/
 ---
 
-We are currently recruiting students! The RT2 Lab is a computational research group focused on solving diverse problems in genomic data science, including statistical analysis, AI for Science, and bioinformatics. Our lab is part of the [Department of Genetics and Genome Sciences](https://health.uconn.edu/genetics/) at UConn Health.  
+We are currently recruiting students! The DS Lab is a computational research group focused on solving diverse problems in genomic data science, including statistical analysis, AI for Science, and bioinformatics. Our lab is part of the [Department of Genetics and Genome Sciences](https://health.uconn.edu/genetics/) at UConn Health.  
 
 If you have any questions about available positions, please email me at <dosong@uchc.edu>.
 
