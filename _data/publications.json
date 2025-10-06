@@ -1,4 +1,73 @@
-[{
+[
+{
+		"id": "http://zotero.org/users/16008677/items/5F822X6X",
+		"type": "article-journal",
+		"abstract": "Background: Spatially resolved transcriptomics offers unprecedented insight by enabling the profiling of gene expression within the intact spatial context of cells, effectively adding a new and essential dimension to data interpretation. To efficiently detect spatial structure of interest, an essential step in analyzing such data involves identifying spatially variable genes (SVGs). Despite researchers having developed several computational methods to accomplish this task, the lack of a comprehensive benchmark evaluating their performance remains a considerable gap in the field.\nResults: Here, we systematically evaluate 14 methods using 96 spatial datasets and 6 metrics. We compare the methods regarding gene ranking and classification based on real spatial variation, statistical calibration, and computation scalability and investigate the impact of identified SVGs on downstream applications such as spatial domain detection. Finally, we explore the applicability of the methods to spatial ATAC-seq data to examine their effectiveness in identifying spatially variable peaks (SVPs). Overall, SPARK-X outperforms other benchmarked methods and Moran’s I achieves a competitive performance, representing a strong baseline for future method development. Moreover, our results reveal that most methods are poorly calibrated, and more specialized algorithms are needed to identify spatially variable peaks.\nConclusions: Our benchmarking provides a detailed comparison of SVG detection methods and serves as a reference for both users and method developers.",
+		"container-title": "Genome Biology",
+		"DOI": "10.1186/s13059-025-03731-2",
+		"ISSN": "1474-760X",
+		"issue": "1",
+		"journalAbbreviation": "Genome Biol",
+		"language": "en",
+		"page": "285",
+		"source": "DOI.org (Crossref)",
+		"title": "Systematic benchmarking of computational methods to identify spatially variable genes",
+		"URL": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03731-2",
+		"volume": "26",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Zhijian"
+			},
+			{
+				"family": "M.Patel",
+				"given": "Zain"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Yasa",
+				"given": "Sai Nirmayi"
+			},
+			{
+				"family": "Cannoodt",
+				"given": "Robrecht"
+			},
+			{
+				"family": "Yan",
+				"given": "Guanao"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			},
+			{
+				"family": "Pinello",
+				"given": "Luca"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					10,
+					6
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					9,
+					18
+				]
+			]
+		}
+	},
+    {
 		"id": "http://zotero.org/users/16008677/items/B3BWXZIC",
 		"type": "article",
         "container-title": "Nature Communications",
