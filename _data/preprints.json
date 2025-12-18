@@ -1,4 +1,45 @@
-[		{
+[{
+  "type": "preprint",
+  "server": "bioRxiv",
+  "title": "spCorr: flexible and scalable inference of spatially varying correlation in spatial transcriptomics",
+  "authors": [
+    {
+      "family": "FirstnameLastname",
+      "given": "Firstname"
+    }
+  ],
+  "year": 2025,
+  "date": "2025-10-02",
+  "doi": "10.1101/2025.09.30.679684",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679684v1",
+  "version": "v1",
+  "abstract": null,
+  "notes": ""
+},		{
+  "type": "preprint",
+  "server": "arXiv",
+  "title": "Double machine learning to estimate the effects of multiple treatments and their interactions",
+  "authors": [
+    { "family": "Xiang", "given": "Qingyan" },
+    { "family": "Yuan", "given": "Yubai" },
+    { "family": "Song", "given": "Dongyuan" },
+    { "family": "Wudil", "given": "Usman J." },
+    { "family": "Aliyu", "given": "Muktar H." },
+    { "family": "Wester", "given": "C. William" },
+    { "family": "Shepherd", "given": "Bryan E." }
+  ],
+  "year": 2025,
+  "date": "2025-05-19",
+  "arxiv_id": "2505.12617",
+  "arxiv_primary_class": null,
+  "doi": null,
+  "url": "https://arxiv.org/abs/2505.12617",
+  "pdf_url": "https://arxiv.org/pdf/2505.12617",
+  "version": "v1",
+  "notes": "Preprint on arXiv."
+}
+,	
+{
 	"id": "http://zotero.org/users/local/FrGxSZBV/items/347XBBZ5",
 	"type": "article",
 	"abstract": "Abstract\n          Cellular organization is central to tissue function and homeostasis, influencing development, disease progression, and therapeutic outcomes. The emergence of spatial omics technologies, including spatial transcriptomics and proteomics, has enabled the integration of molecular and histological features within tissues. Analyzing these multimodal data presents unique challenges, including variable resolutions, imperfect tissue alignment, and limited or variable spatial coverage. To address these issues, we introduce CORAL, a probabilistic deep generative model that leverages graph attention mechanisms to learn expressive, integrated representations of multimodal spatial omics data. CORAL deconvolves low-resolution spatial data into high-resolution single-cell profiles and detects functional spatial domains. It also characterizes cell-cell interactions and elucidates disease-relevant spatial features. Validated on synthetic data and experimental datasets, including Stero-CITE-seq data from mouse thymus, and paired CODEX and Visium data from hepatocellular carcinoma, CORAL demonstrates robustness and versatility. In hepatocellular carcinoma, CORAL uncovered key immune cell subsets that drive the failure of response to immunotherapy, highlighting its potential to advance spatial single-cell analyses and accelerate translational research.",

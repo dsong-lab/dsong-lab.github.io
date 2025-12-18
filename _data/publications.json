@@ -1,4 +1,57 @@
-[
+[{
+  "type": "article",
+  "title": "PseudotimeDE-fast: fast testing of differential gene expression along cell pseudotime",
+  "authors": [
+    { "family": "Lai", "given": "Yuheng" },
+    { "family": "Song", "given": "Dongyuan" },
+    { "family": "Xia", "given": "Lucy" },
+    { "family": "Li", "given": "Jingyi Jessica" }
+  ],
+  "journal": "Bioinformatics",
+  "year": 2025,
+  "volume": "41",
+  "issue": "11",
+  "pages": null,
+  "doi": "10.1093/bioinformatics/btaf573",
+  "url": "https://doi.org/10.1093/bioinformatics/btaf573",
+  "pmid": "41117775",
+  "abstract": null,
+  "keywords": [
+    "pseudotime",
+    "differential expression",
+    "single-cell RNA-seq",
+    "Bioinformatics",
+    "trajectory analysis"
+  ],
+  "notes": "Published November 1 2025. Scalable method for differential gene expression testing along inferred pseudotime. Authors include Yuheng Lai, Dongyuan Song, Lucy Xia, and Jingyi Jessica Li."  
+}
+,
+    {
+  "type": "article",
+  "title": "ClusterDE: a statistical software package for removing double-dipping bias in post-clustering differential expression analysis",
+  "authors": [
+    { "family": "Lee", "given": "Christy" },
+    { "family": "Song", "given": "Dongyuan" },
+    { "family": "Chen", "given": "Siqi" },
+    { "family": "Li", "given": "Jingyi Jessica" }
+  ],
+  "journal": "Journal of Computational Biology",
+  "year": 2025,
+  "month": "October",
+  "day": 8,
+  "doi": "10.1177/15578666251383562",
+  "url": "https://doi.org/10.1177/15578666251383562",
+  "abstract": null,
+  "keywords": [
+    "clustering",
+    "differential expression",
+    "single-cell RNA-seq",
+    "spatial transcriptomics",
+    "double-dipping bias"
+  ],
+  "notes": "Statistical software article introducing the ClusterDE R package for reliable post-clustering differential expression analysis."  
+}
+,
 {
 		"id": "http://zotero.org/users/16008677/items/5F822X6X",
 		"type": "article-journal",
