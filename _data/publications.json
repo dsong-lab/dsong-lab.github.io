@@ -1,57 +1,92 @@
 [{
-  "type": "article",
-  "title": "PseudotimeDE-fast: fast testing of differential gene expression along cell pseudotime",
-  "authors": [
-    { "family": "Lai", "given": "Yuheng" },
-    { "family": "Song", "given": "Dongyuan" },
-    { "family": "Xia", "given": "Lucy" },
-    { "family": "Li", "given": "Jingyi Jessica" }
-  ],
-  "journal": "Bioinformatics",
-  "year": 2025,
-  "volume": "41",
-  "issue": "11",
-  "pages": null,
-  "doi": "10.1093/bioinformatics/btaf573",
-  "url": "https://doi.org/10.1093/bioinformatics/btaf573",
-  "pmid": "41117775",
-  "abstract": null,
-  "keywords": [
-    "pseudotime",
-    "differential expression",
-    "single-cell RNA-seq",
-    "Bioinformatics",
-    "trajectory analysis"
-  ],
-  "notes": "Published November 1 2025. Scalable method for differential gene expression testing along inferred pseudotime. Authors include Yuheng Lai, Dongyuan Song, Lucy Xia, and Jingyi Jessica Li."  
-}
-,
-    {
-  "type": "article",
-  "title": "ClusterDE: a statistical software package for removing double-dipping bias in post-clustering differential expression analysis",
-  "authors": [
-    { "family": "Lee", "given": "Christy" },
-    { "family": "Song", "given": "Dongyuan" },
-    { "family": "Chen", "given": "Siqi" },
-    { "family": "Li", "given": "Jingyi Jessica" }
-  ],
-  "journal": "Journal of Computational Biology",
-  "year": 2025,
-  "month": "October",
-  "day": 8,
-  "doi": "10.1177/15578666251383562",
-  "url": "https://doi.org/10.1177/15578666251383562",
-  "abstract": null,
-  "keywords": [
-    "clustering",
-    "differential expression",
-    "single-cell RNA-seq",
-    "spatial transcriptomics",
-    "double-dipping bias"
-  ],
-  "notes": "Statistical software article introducing the ClusterDE R package for reliable post-clustering differential expression analysis."  
-}
-,
+		"id": "http://zotero.org/users/16008677/items/ZU6ETMB3",
+		"type": "article-journal",
+		"abstract": "Summary: Identifying differentially expressed (DE) genes along cell pseudotime is crucial for understanding dynamic biological processes captured by single-cell RNA sequencing. However, existing DE methods either produce invalid P-values by ignoring the uncertainty in pseudotime inference or struggle to scale with the growing size of modern datasets. To address these limitations, we introduce PseudotimeDE-fast, a scalable method for detecting DE genes along pseudotime with well-calibrated P-values. Through comprehensive simulations and real-data analyses, we demonstrate that PseudotimeDE-fast delivers comparable or superior performance to existing approaches while offering substantial improvements in computational efficiency.",
+		"container-title": "Bioinformatics",
+		"DOI": "10.1093/bioinformatics/btaf573",
+		"ISSN": "1367-4811",
+		"issue": "11",
+		"language": "en",
+		"license": "https://creativecommons.org/licenses/by/4.0/",
+		"page": "btaf573",
+		"source": "DOI.org (Crossref)",
+		"title": "PseudotimeDE-fast: fast testing of differential gene expression along cell pseudotime",
+		"title-short": "PseudotimeDE-fast",
+		"URL": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btaf573/8294116",
+		"volume": "41",
+		"author": [
+			{
+				"family": "Lai",
+				"given": "Yuheng"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Xia",
+				"given": "Lucy"
+			},
+			{
+				"family": "Li",
+				"given": "Jingyi Jessica"
+			}
+		],
+		"editor": [
+			{
+				"family": "Kendziorski",
+				"given": "Christina"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					12,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					11,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/16008677/items/5828S66D",
+		"type": "article-journal",
+		"abstract": "Spatial transcriptomics has transformed our ability to explore gene expression within its tissue context, enabling us to dissect subtle yet biologically significant variations in situ. While numerous computational methods have been proposed for detecting Spatially Varying Genes (SVGs) expression by modeling each individual gene separately, much less effort has been devoted to understanding how correlations between genes change across space. Such Spatially Varying Correlations (SVCs) are critical for understanding biological processes such as gene regulatory mechanisms shaped by local tissue environments, yet existing tools remain limited for this task. To address this gap, we present spCorr, a flexible and scalable regression framework for studying SVCs. spCorr provides interpretable, spot-level estimates of gene correlation and detects gene pairs whose correlations vary across locations or between tissue domains. Through extensive simulations and real-data analyses, we show that spCorr achieves high detection power, reliably controls the False Discovery Rate (FDR), and is computationally efficient. Importantly, spCorr reveals biologically meaningful correlation patterns that highlight fine-scale tissue structures, gene module functions, and region-specific interactions, offering new opportunities to study coordinated gene regulation in spatial transcriptomics.",
+		"language": "en",
+		"source": "Zotero",
+		"title": "spCorr: flexible and scalable inference of spatially varying correlation in spatial transcriptomics",
+		"author": [
+			{
+				"family": "Jiang",
+				"given": "Chenxin Flora"
+			},
+			{
+				"family": "Yin",
+				"given": "Yuxin"
+			},
+			{
+				"family": "Li",
+				"given": "Yuanhao James"
+			},
+			{
+				"family": "Jessica",
+				"given": "Jingyi"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			}
+		]
+	},
 {
 		"id": "http://zotero.org/users/16008677/items/5F822X6X",
 		"type": "article-journal",

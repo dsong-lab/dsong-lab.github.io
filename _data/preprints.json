@@ -1,116 +1,94 @@
 [{
-  "type": "preprint",
-  "server": "bioRxiv",
-  "title": "spCorr: flexible and scalable inference of spatially varying correlation in spatial transcriptomics",
-  "authors": [
-    {
-      "family": "FirstnameLastname",
-      "given": "Firstname"
-    }
-  ],
-  "year": 2025,
-  "date": "2025-10-02",
-  "doi": "10.1101/2025.09.30.679684",
-  "url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679684v1",
-  "version": "v1",
-  "abstract": null,
-  "notes": ""
-},		{
-  "type": "preprint",
-  "server": "arXiv",
-  "title": "Double machine learning to estimate the effects of multiple treatments and their interactions",
-  "authors": [
-    { "family": "Xiang", "given": "Qingyan" },
-    { "family": "Yuan", "given": "Yubai" },
-    { "family": "Song", "given": "Dongyuan" },
-    { "family": "Wudil", "given": "Usman J." },
-    { "family": "Aliyu", "given": "Muktar H." },
-    { "family": "Wester", "given": "C. William" },
-    { "family": "Shepherd", "given": "Bryan E." }
-  ],
-  "year": 2025,
-  "date": "2025-05-19",
-  "arxiv_id": "2505.12617",
-  "arxiv_primary_class": null,
-  "doi": null,
-  "url": "https://arxiv.org/abs/2505.12617",
-  "pdf_url": "https://arxiv.org/pdf/2505.12617",
-  "version": "v1",
-  "notes": "Preprint on arXiv."
-}
-,	
-{
-	"id": "http://zotero.org/users/local/FrGxSZBV/items/347XBBZ5",
-	"type": "article",
-	"abstract": "Abstract\n          Cellular organization is central to tissue function and homeostasis, influencing development, disease progression, and therapeutic outcomes. The emergence of spatial omics technologies, including spatial transcriptomics and proteomics, has enabled the integration of molecular and histological features within tissues. Analyzing these multimodal data presents unique challenges, including variable resolutions, imperfect tissue alignment, and limited or variable spatial coverage. To address these issues, we introduce CORAL, a probabilistic deep generative model that leverages graph attention mechanisms to learn expressive, integrated representations of multimodal spatial omics data. CORAL deconvolves low-resolution spatial data into high-resolution single-cell profiles and detects functional spatial domains. It also characterizes cell-cell interactions and elucidates disease-relevant spatial features. Validated on synthetic data and experimental datasets, including Stero-CITE-seq data from mouse thymus, and paired CODEX and Visium data from hepatocellular carcinoma, CORAL demonstrates robustness and versatility. In hepatocellular carcinoma, CORAL uncovered key immune cell subsets that drive the failure of response to immunotherapy, highlighting its potential to advance spatial single-cell analyses and accelerate translational research.",
-	"DOI": "10.1101/2025.02.01.636038",
-	"language": "en",
-	"license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
-	"publisher": "Bioinformatics",
-	"source": "DOI.org (Crossref)",
-	"title": "Learning single-cell spatial context through integrated spatial multiomics with CORAL",
-	"URL": "http://biorxiv.org/lookup/doi/10.1101/2025.02.01.636038",
-	"author": [
-		{
-			"family": "He",
-			"given": "Siyu"
-		},
-		{
-			"family": "Bieniosek",
-			"given": "Matthew"
-		},
-		{
-			"family": "<b>Song</b>",
-			"given": "Dongyuan"
-		},
-		{
-			"family": "Zhou",
-			"given": "Jingtian"
-		},
-		{
-			"family": "Chidester",
-			"given": "Benjamin"
-		},
-		{
-			"family": "Wu",
-			"given": "Zhenqin"
-		},
-		{
-			"family": "Boen",
-			"given": "Joseph"
-		},
-		{
-			"family": "Sharma",
-			"given": "Padmanee"
-		},
-		{
-			"family": "Trevino",
-			"given": "Alexandro E."
-		},
-		{
-			"family": "Zou",
-			"given": "James"
-		}
-	],
-	"accessed": {
-		"date-parts": [
-			[
-				"2025",
-				3,
-				6
+		"id": "http://zotero.org/users/16008677/items/7JSGQTZV",
+		"type": "article",
+		"abstract": "Causal inference literature has extensively focused on binary treatments, with relatively fewer methods developed for multi-valued treatments. In particular, methods for multiple simultaneously assigned treatments remain understudied despite their practical importance. This paper introduces two settings: (1) estimating the effects of multiple treatments of different types (binary, categorical, and continuous) and the effects of treatment interactions, and (2) estimating the average treatment effect across categories of multi-valued regimens. To obtain robust estimates for both settings, we propose a class of methods based on the Double Machine Learning (DML) framework. Our methods are well-suited for complex settings of multiple treatments/regimens, using machine learning to model confounding relationships while overcoming regularization and overfitting biases through Neyman orthogonality and cross-fitting. To our knowledge, this work is the first to apply machine learning for robust estimation of interaction effects in the presence of multiple treatments. We further establish the asymptotic distribution of our estimators and derive variance estimators for statistical inference. Extensive simulations demonstrate the performance of our methods. Finally, we apply the methods to study the effect of three treatments on HIV-associated kidney disease in an adult HIV cohort of 2455 participants in Nigeria.",
+		"DOI": "10.48550/arXiv.2505.12617",
+		"language": "en",
+		"note": "arXiv:2505.12617 [stat]",
+		"number": "arXiv:2505.12617",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Double machine learning to estimate the effects of multiple treatments and their interactions",
+		"URL": "http://arxiv.org/abs/2505.12617",
+		"author": [
+			{
+				"family": "Xiang",
+				"given": "Qingyan"
+			},
+			{
+				"family": "Yuan",
+				"given": "Yubai"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			},
+			{
+				"family": "Wudil",
+				"given": "Usman J."
+			},
+			{
+				"family": "Aliyu",
+				"given": "Muktar H."
+			},
+			{
+				"family": "Wester",
+				"given": "C. William"
+			},
+			{
+				"family": "Shepherd",
+				"given": "Bryan E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					12,
+					19
+				]
 			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/16008677/items/5828S66D",
+		"type": "article-journal",
+		"abstract": "Spatial transcriptomics has transformed our ability to explore gene expression within its tissue context, enabling us to dissect subtle yet biologically significant variations in situ. While numerous computational methods have been proposed for detecting Spatially Varying Genes (SVGs) expression by modeling each individual gene separately, much less effort has been devoted to understanding how correlations between genes change across space. Such Spatially Varying Correlations (SVCs) are critical for understanding biological processes such as gene regulatory mechanisms shaped by local tissue environments, yet existing tools remain limited for this task. To address this gap, we present spCorr, a flexible and scalable regression framework for studying SVCs. spCorr provides interpretable, spot-level estimates of gene correlation and detects gene pairs whose correlations vary across locations or between tissue domains. Through extensive simulations and real-data analyses, we show that spCorr achieves high detection power, reliably controls the False Discovery Rate (FDR), and is computationally efficient. Importantly, spCorr reveals biologically meaningful correlation patterns that highlight fine-scale tissue structures, gene module functions, and region-specific interactions, offering new opportunities to study coordinated gene regulation in spatial transcriptomics.",
+		"language": "en",
+		"source": "Zotero",
+		"title": "spCorr: flexible and scalable inference of spatially varying correlation in spatial transcriptomics",
+		"author": [
+			{
+				"family": "Jiang",
+				"given": "Chenxin Flora"
+			},
+			{
+				"family": "Yin",
+				"given": "Yuxin"
+			},
+			{
+				"family": "Li",
+				"given": "Yuanhao James"
+			},
+			{
+				"family": "Jessica",
+				"given": "Jingyi"
+			},
+			{
+				"family": "Song",
+				"given": "Dongyuan"
+			}
 		]
 	},
-	"issued": {
-		"date-parts": [
-			[
-				"2025",
-				2,
-				6
-			]
-		]
-	}
-},
 {
 	"id": "http://zotero.org/users/local/FrGxSZBV/items/6W7ATBDX",
 	"type": "article",
