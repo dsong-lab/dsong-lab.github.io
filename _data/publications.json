@@ -1,4 +1,5 @@
-[{
+[
+    {
 		"id": "http://zotero.org/users/16008677/items/ZU6ETMB3",
 		"type": "article-journal",
 		"abstract": "Summary: Identifying differentially expressed (DE) genes along cell pseudotime is crucial for understanding dynamic biological processes captured by single-cell RNA sequencing. However, existing DE methods either produce invalid P-values by ignoring the uncertainty in pseudotime inference or struggle to scale with the growing size of modern datasets. To address these limitations, we introduce PseudotimeDE-fast, a scalable method for detecting DE genes along pseudotime with well-calibrated P-values. Through comprehensive simulations and real-data analyses, we demonstrate that PseudotimeDE-fast delivers comparable or superior performance to existing approaches while offering substantial improvements in computational efficiency.",

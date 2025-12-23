@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"id": "http://zotero.org/users/16008677/items/7JSGQTZV",
 		"type": "article",
 		"abstract": "Causal inference literature has extensively focused on binary treatments, with relatively fewer methods developed for multi-valued treatments. In particular, methods for multiple simultaneously assigned treatments remain understudied despite their practical importance. This paper introduces two settings: (1) estimating the effects of multiple treatments of different types (binary, categorical, and continuous) and the effects of treatment interactions, and (2) estimating the average treatment effect across categories of multi-valued regimens. To obtain robust estimates for both settings, we propose a class of methods based on the Double Machine Learning (DML) framework. Our methods are well-suited for complex settings of multiple treatments/regimens, using machine learning to model confounding relationships while overcoming regularization and overfitting biases through Neyman orthogonality and cross-fitting. To our knowledge, this work is the first to apply machine learning for robust estimation of interaction effects in the presence of multiple treatments. We further establish the asymptotic distribution of our estimators and derive variance estimators for statistical inference. Extensive simulations demonstrate the performance of our methods. Finally, we apply the methods to study the effect of three treatments on HIV-associated kidney disease in an adult HIV cohort of 2455 participants in Nigeria.",
@@ -90,7 +91,7 @@
 				"given": "Jingyi Jessica"
 			},
 			{
-				"family": "Song",
+				"family": "<b>Song</b>",
 				"given": "Dongyuan"
 			}
 		],
