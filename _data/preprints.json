@@ -60,12 +60,14 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/16008677/items/5828S66D",
+		"id": "http://zotero.org/users/16008677/items/GHTMYF8J",
 		"type": "article-journal",
-		"abstract": "Spatial transcriptomics has transformed our ability to explore gene expression within its tissue context, enabling us to dissect subtle yet biologically significant variations in situ. While numerous computational methods have been proposed for detecting Spatially Varying Genes (SVGs) expression by modeling each individual gene separately, much less effort has been devoted to understanding how correlations between genes change across space. Such Spatially Varying Correlations (SVCs) are critical for understanding biological processes such as gene regulatory mechanisms shaped by local tissue environments, yet existing tools remain limited for this task. To address this gap, we present spCorr, a flexible and scalable regression framework for studying SVCs. spCorr provides interpretable, spot-level estimates of gene correlation and detects gene pairs whose correlations vary across locations or between tissue domains. Through extensive simulations and real-data analyses, we show that spCorr achieves high detection power, reliably controls the False Discovery Rate (FDR), and is computationally efficient. Importantly, spCorr reveals biologically meaningful correlation patterns that highlight fine-scale tissue structures, gene module functions, and region-specific interactions, offering new opportunities to study coordinated gene regulation in spatial transcriptomics.",
-		"language": "en",
-		"source": "bioRxiv",
+		"abstract": "Spatial transcriptomics has transformed our ability to explore gene expression within its tissue context, enabling us to dissect subtle yet biologically significant variations in situ. While numerous computational methods have been proposed for detecting Spatially Varying Genes (SVGs) expression by modeling each individual gene separately, much less effort has been devoted to understanding how correlations between genes change across space. Such Spatially Varying Correlations (SVCs) are critical for understanding biological processes such as gene regulatory mechanisms shaped by local tissue environments, yet existing tools remain limited for this task. To address this gap, we present spCorr, a flexible and scalable regression framework for studying SVCs. spCorr provides interpretable, spot-level estimates of gene correlation and detects gene pairs whose correlations vary across locations or between tissue domains. Through extensive simulations and real-data analyses, we show that spCorr achieves high detection power, reliably controls the False Discovery Rate (FDR), and is computationally efficient. Importantly, spCorr reveals biologically meaningful correlation patterns that highlight fine-scale tissue structures, gene module functions, and region-specific interactions, offering new opportunities to study coordinated gene regulation in spatial transcriptomics.Competing Interest StatementThe authors have declared no competing interest.U.S. National Science Foundation, DBI-1846216, DMS- 211375NIH Common Fund, https://ror.org/001d55x84, R01GM120507, R35GM14088",
+		"container-title": "bioRxiv",
+		"DOI": "10.1101/2025.09.30.679684",
+		"page": "2025.09.30.679684",
 		"title": "spCorr: flexible and scalable inference of spatially varying correlation in spatial transcriptomics",
+		"URL": "http://biorxiv.org/content/early/2025/10/02/2025.09.30.679684.abstract",
 		"author": [
 			{
 				"family": "Jiang",
@@ -76,18 +78,31 @@
 				"given": "Yuxin"
 			},
 			{
+				"family": "Robson",
+				"given": "Paul"
+			},
+			{
 				"family": "Li",
 				"given": "Yuanhao James"
 			},
 			{
-				"family": "Jessica",
-				"given": "Jingyi"
+				"family": "Li",
+				"given": "Jingyi Jessica"
 			},
 			{
-				"family": "<b>Song</b>",
+				"family": "Song",
 				"given": "Dongyuan"
 			}
-		]
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					1,
+					1
+				]
+			]
+		}
 	},
 {
 	"id": "http://zotero.org/users/local/FrGxSZBV/items/6W7ATBDX",
