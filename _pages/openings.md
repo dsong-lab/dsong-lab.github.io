@@ -28,10 +28,13 @@ For international applicants, the English proficiency requirements are TOEFL iBT
 If you are interested in joining our lab, please email me (<dosong@uchc.edu>) with the subject line **"Ph.D. Application: [Your Name]"** and include your CV.
 
 ### Undergraduate Students / Summer Interns
-If you are an *undergraduate student at UConn*, the [Health Research Program](https://ugradresearch.uconn.edu/hrp/) is an excellent opportunity to work with our lab. Please check their website every **February** for application details.
+If you are an *undergraduate student at UConn*, the [Health Research Program](https://ugradresearch.uconn.edu/hrp/) is an excellent opportunity to work with our lab with financial support. Please check their website every **February** for application details.
+
+### Research Technitian
+We have a full-time research technician for a **one-year position** through Special Payroll. The technician will contribute to the development of statistical and AI models for spatial omics data analysis. This is an **on-site** position at UConn Health. Applicants should have at least an undergraduate degree in a related field, such as bioinformatics, statistics, biostatistics, computer science, computational biology, or a related discipline. A master’s degree in a related field is preferred. The biweekly salary will be about $1400 before tax. If you are interested in this position, please email me (<dosong@uchc.edu>) with the subject line **"Technition Application: [Your Name]"** and include your CV. The application deadline will be June 17th, 2026. The earliest start date is June, 2026.
 
 ### Postdoctoral Researchers
-Although we are not actively recruiting postdocs at the moment, we welcome inquiries from candidates who are interested in our research.
+Although we are **not actively recruiting postdocs** at the moment, we welcome inquiries from candidates who are interested in our research.
 
 #### Postdoctoral Candidate Requirements
 1. A Ph.D. in a quantitative discipline, such as Bioinformatics, Biostatistics, Statistics, Computer Science, or Computational Biology.  

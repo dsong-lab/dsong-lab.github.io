@@ -1,3 +1,15 @@
+- date: 05/15/2026
+  title: "Our learnability of scFMs is accepted by BMC Genomics"
+  tags:
+    - pub
+  content: Our paper on <a href="https://www.researchsquare.com/article/rs-8919408/v1">Learnability of scFMs</a> is accepted by *BMC Genomics*.
+
+- date: 04/19/2026
+  title: "Our spCorr paper is accepted by Genome Research"
+  tags:
+    - pub
+  content: Our paper on <a href="https://www.biorxiv.org/content/10.1101/2025.09.30.679684v1">spCorr</a> is accepted by *Genome Research*. Congratulations, Yuxin!
+
 - date: 12/17/2024
   title: "ClusterDE is accepted by RECOMB2025"
   tags:
