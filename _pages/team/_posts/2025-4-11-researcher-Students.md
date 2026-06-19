@@ -4,7 +4,7 @@ category: student
 title: Yu Wang
 image: YuWang.jpg
 role: PhD Student
-permalink: 'team/YuWang'
+permalink: 'team/YuWang/'
 social:
     #twitter: https://twitter.com/
     #linkedin: https://www.linkedin.com/

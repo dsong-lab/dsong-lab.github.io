@@ -1,106 +1,119 @@
 ---
 title: "Publications"
 layout: default
-excerpt: "RT2 Lab -- Publications."
+excerpt: "DS Lab @ UConn Health -- Publications."
 sitemap: false
 permalink: /publications/
 ---
 
 <div class="publications">
 
-  <h2>Preprint</h2>
-  <div class="panel-group" id="accordion-preprints">
-    <div class="panel panel-default">
+  <section class="publication-section">
+    <div class="publication-section-header">
+      <h2>Preprints</h2>
+      <span class="publication-count">{{ site.data.preprints | size }}</span>
+    </div>
 
+    <div class="publication-list" id="preprint-list">
       {% for publi in site.data.preprints %}
-      <div class="panel-heading">
-        <a data-toggle="collapse"
-           data-parent="#accordion-preprints"
-           href="#preprint-collapse-{{ forloop.index }}"
-           style="color: inherit;">
+      {% assign doi = publi.DOI | remove_first: "https://doi.org/" | remove_first: "http://doi.org/" | remove_first: "https://dx.doi.org/" | remove_first: "http://dx.doi.org/" %}
+      {% assign issued_parts = publi.issued["date-parts"] | first %}
+      {% assign year = issued_parts | first %}
+      {% assign venue = publi.container-title | default: publi.publisher | default: publi.source %}
+      <article class="publication-item">
+        <div class="publication-content">
+          <a class="publication-title" data-toggle="collapse"
+             href="#preprint-collapse-{{ forloop.index }}"
+             aria-expanded="false"
+             aria-controls="preprint-collapse-{{ forloop.index }}">
+            {{ publi.title }}
+          </a>
 
-          {% assign authors = "" | split:"/" %}
-          {% for author in publi.author %}
-            {% assign authors = authors | push: author.family %}
-          {% endfor %}
-          {{ authors | array_to_sentence_string }},
+          <div class="publication-authors">
+            {% for author in publi.author %}
+              {% assign family = author.family | strip_html %}
+              {% assign given = author.given | default: "" %}
+              {% if family == "Song" and given contains "Dongyuan" %}
+                <strong>{{ family }}</strong>{% else %}{{ family }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
+            {% endfor %}
+          </div>
 
-          "{{ publi.title }}",
-          <b>{{ publi.container-title }}</b>
-          ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+          <div class="publication-meta">
+            {% if venue %}<span>{{ venue }}</span>{% endif %}
+            {% if year %}<span>{{ year }}</span>{% endif %}
+          </div>
+        </div>
 
-          {% if publi.DOI %}
-            <a href="https://doi.org/{{ publi.DOI }}">DOI:{{ publi.DOI }}</a>
-          {% endif %}
+        {% if doi %}
+        <a class="publication-doi" href="https://doi.org/{{ doi }}" target="_blank" rel="noopener noreferrer">
+          DOI
         </a>
-      </div>
+        {% endif %}
 
-      <div id="preprint-collapse-{{ forloop.index }}" class="panel-collapse collapse">
-        <div class="panel-body">
+        <div id="preprint-collapse-{{ forloop.index }}" class="collapse publication-abstract">
           {% if publi.abstract %}
             <p>{{ publi.abstract }}</p>
           {% else %}
             <p><em>Abstract not available.</em></p>
           {% endif %}
-
-          {% if publi.DOI %}
-          <a class="btn btn-outline-primary" href="https://doi.org/{{ publi.DOI }}" role="button" target="_blank">
-            Link
-          </a>
-          {% endif %}
         </div>
-      </div>
+      </article>
       {% endfor %}
-
     </div>
-  </div>
+  </section>
 
+  <section class="publication-section">
+    <div class="publication-section-header">
+      <h2>Peer Reviewed</h2>
+      <span class="publication-count">{{ site.data.publications | size }}</span>
+    </div>
 
-  <h2>Peer reviewed</h2>
-  <div class="panel-group" id="accordion-peer">
-    <div class="panel panel-default">
-
+    <div class="publication-list" id="peer-reviewed-list">
       {% for publi in site.data.publications %}
-      <div class="panel-heading">
-        <a data-toggle="collapse"
-           data-parent="#accordion-peer"
-           href="#peer-collapse-{{ forloop.index }}"
-           style="color: inherit;">
+      {% assign doi = publi.DOI | remove_first: "https://doi.org/" | remove_first: "http://doi.org/" | remove_first: "https://dx.doi.org/" | remove_first: "http://dx.doi.org/" %}
+      {% assign issued_parts = publi.issued["date-parts"] | first %}
+      {% assign year = issued_parts | first %}
+      {% assign venue = publi.container-title | default: publi.publisher | default: publi.source %}
+      <article class="publication-item">
+        <div class="publication-content">
+          <a class="publication-title" data-toggle="collapse"
+             href="#peer-collapse-{{ forloop.index }}"
+             aria-expanded="false"
+             aria-controls="peer-collapse-{{ forloop.index }}">
+            {{ publi.title }}
+          </a>
 
-          {% assign authors = "" | split:"/" %}
-          {% for author in publi.author %}
-            {% assign authors = authors | push: author.family %}
-          {% endfor %}
-          {{ authors | array_to_sentence_string }},
+          <div class="publication-authors">
+            {% for author in publi.author %}
+              {% assign family = author.family | strip_html %}
+              {% assign given = author.given | default: "" %}
+              {% if family == "Song" and given contains "Dongyuan" %}
+                <strong>{{ family }}</strong>{% else %}{{ family }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
+            {% endfor %}
+          </div>
 
-          "{{ publi.title }}",
-          <b>{{ publi.container-title }}</b>
-          ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+          <div class="publication-meta">
+            {% if venue %}<span>{{ venue }}</span>{% endif %}
+            {% if year %}<span>{{ year }}</span>{% endif %}
+          </div>
+        </div>
 
-          {% if publi.DOI %}
-            <a href="https://doi.org/{{ publi.DOI }}">DOI:{{ publi.DOI }}</a>
-          {% endif %}
+        {% if doi %}
+        <a class="publication-doi" href="https://doi.org/{{ doi }}" target="_blank" rel="noopener noreferrer">
+          DOI
         </a>
-      </div>
+        {% endif %}
 
-      <div id="peer-collapse-{{ forloop.index }}" class="panel-collapse collapse">
-        <div class="panel-body">
+        <div id="peer-collapse-{{ forloop.index }}" class="collapse publication-abstract">
           {% if publi.abstract %}
             <p>{{ publi.abstract }}</p>
           {% else %}
             <p><em>Abstract not available.</em></p>
           {% endif %}
-
-          {% if publi.DOI %}
-          <a class="btn btn-outline-primary" href="https://doi.org/{{ publi.DOI }}" role="button" target="_blank">
-            Link
-          </a>
-          {% endif %}
         </div>
-      </div>
+      </article>
       {% endfor %}
-
     </div>
-  </div>
+  </section>
 
 </div>

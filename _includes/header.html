@@ -1,25 +1,50 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
+<a class="skip-link" href="#content">Skip to content</a>
 
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a>
-	</div>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
-		<!--<li><a href="{{ site.url }}{{ site.baseurl }}/teaching">Teaching</a></li>-->
-		<li><a href="{{ site.url }}{{ site.baseurl }}/openings">Openings</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/news">News</a></li>
-	  </ul>
-	</div>
+<header class="site-header" role="banner">
+  <div class="uconn-health-bar">
+    <div class="container-fluid">
+      <a class="uconn-health-wordmark" href="https://health.uconn.edu/">UConn Health</a>
+      <div class="uconn-health-links">
+        <a href="https://health.uconn.edu/genetics/">Genetics and Genome Sciences</a>
+        <a href="https://health.uconn.edu/search/">Search</a>
+      </div>
+    </div>
   </div>
-</div>
+
+  <div class="lab-brand-row">
+    <div class="container-fluid">
+      <div class="lab-identity">
+        <a class="lab-brand" href="{{ site.url }}{{ site.baseurl }}/">DS Lab</a>
+        <div class="lab-descriptor">
+          <div class="lab-affiliation">Department of Genetics and Genome Sciences</div>
+          <div class="lab-tagline">Data science, statistics, and AI for single-cell and spatial omics</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-default lab-navbar" role="navigation" aria-label="Main navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand visible-xs" href="{{ site.url }}{{ site.baseurl }}/">Menu</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li{% if page.url == "/" %} class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+          <li{% if page.url contains "/news" %} class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/news/">News</a></li>
+          <li{% if page.url contains "/team" %} class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/team/">Team</a></li>
+          <li{% if page.url contains "/publications" %} class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/publications/">Publications</a></li>
+          <li{% if page.url contains "/research" %} class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/research/">Research</a></li>
+          <li{% if page.url contains "/openings" %} class="active"{% endif %}><a href="{{ site.url }}{{ site.baseurl }}/openings/">Openings</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

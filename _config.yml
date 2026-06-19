@@ -13,6 +13,18 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: ""
 
+exclude:
+  - .bundle
+  - .gems
+  - .gem-spec-cache
+  - CODE_OF_CONDUCT.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - images/slider/DS Lab @ UConn Health - Research.html
+  - images/slider/DS Lab @ UConn Health - Research_files
+
 include:
   - .htaccess
   - _pages
@@ -38,4 +50,3 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
-

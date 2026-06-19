@@ -4,7 +4,7 @@ category: student
 title: Yuxin Yin
 image: YuxinYin.jpg
 role: Research Assistant
-permalink: 'team/YuxinYin'
+permalink: 'team/YuxinYin/'
 social:
     #twitter: https://twitter.com/
     #linkedin: https://www.linkedin.com/

@@ -1,266 +1,260 @@
 [
-	{
-		"id": "http://zotero.org/users/16008677/items/7JSGQTZV",
-		"type": "article",
-		"abstract": "Causal inference literature has extensively focused on binary treatments, with relatively fewer methods developed for multi-valued treatments. In particular, methods for multiple simultaneously assigned treatments remain understudied despite their practical importance. This paper introduces two settings: (1) estimating the effects of multiple treatments of different types (binary, categorical, and continuous) and the effects of treatment interactions, and (2) estimating the average treatment effect across categories of multi-valued regimens. To obtain robust estimates for both settings, we propose a class of methods based on the Double Machine Learning (DML) framework. Our methods are well-suited for complex settings of multiple treatments/regimens, using machine learning to model confounding relationships while overcoming regularization and overfitting biases through Neyman orthogonality and cross-fitting. To our knowledge, this work is the first to apply machine learning for robust estimation of interaction effects in the presence of multiple treatments. We further establish the asymptotic distribution of our estimators and derive variance estimators for statistical inference. Extensive simulations demonstrate the performance of our methods. Finally, we apply the methods to study the effect of three treatments on HIV-associated kidney disease in an adult HIV cohort of 2455 participants in Nigeria.",
-		"DOI": "10.48550/arXiv.2505.12617",
-		"language": "en",
-		"note": "arXiv:2505.12617 [stat]",
-		"number": "arXiv:2505.12617",
-		"publisher": "arXiv",
-		"source": "arXiv.org",
-		"title": "Double machine learning to estimate the effects of multiple treatments and their interactions",
-		"URL": "http://arxiv.org/abs/2505.12617",
-		"author": [
-			{
-				"family": "Xiang",
-				"given": "Qingyan"
-			},
-			{
-				"family": "Yuan",
-				"given": "Yubai"
-			},
-			{
-				"family": "<b>Song</b>",
-				"given": "Dongyuan"
-			},
-			{
-				"family": "Wudil",
-				"given": "Usman J."
-			},
-			{
-				"family": "Aliyu",
-				"given": "Muktar H."
-			},
-			{
-				"family": "Wester",
-				"given": "C. William"
-			},
-			{
-				"family": "Shepherd",
-				"given": "Bryan E."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2025",
-					12,
-					19
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2025",
-					5,
-					19
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/16008677/items/GHTMYF8J",
-		"type": "article-journal",
-		"abstract": "Spatial transcriptomics has transformed our ability to explore gene expression within its tissue context, enabling us to dissect subtle yet biologically significant variations in situ. While numerous computational methods have been proposed for detecting Spatially Varying Genes (SVGs) expression by modeling each individual gene separately, much less effort has been devoted to understanding how correlations between genes change across space. Such Spatially Varying Correlations (SVCs) are critical for understanding biological processes such as gene regulatory mechanisms shaped by local tissue environments, yet existing tools remain limited for this task. To address this gap, we present spCorr, a flexible and scalable regression framework for studying SVCs. spCorr provides interpretable, spot-level estimates of gene correlation and detects gene pairs whose correlations vary across locations or between tissue domains. Through extensive simulations and real-data analyses, we show that spCorr achieves high detection power, reliably controls the False Discovery Rate (FDR), and is computationally efficient. Importantly, spCorr reveals biologically meaningful correlation patterns that highlight fine-scale tissue structures, gene module functions, and region-specific interactions, offering new opportunities to study coordinated gene regulation in spatial transcriptomics.Competing Interest StatementThe authors have declared no competing interest.U.S. National Science Foundation, DBI-1846216, DMS- 211375NIH Common Fund, https://ror.org/001d55x84, R01GM120507, R35GM14088",
-		"container-title": "bioRxiv",
-		"DOI": "10.1101/2025.09.30.679684",
-		"page": "2025.09.30.679684",
-		"title": "spCorr: flexible and scalable inference of spatially varying correlation in spatial transcriptomics",
-		"URL": "http://biorxiv.org/content/early/2025/10/02/2025.09.30.679684.abstract",
-		"author": [
-			{
-				"family": "Jiang",
-				"given": "Chenxin Flora"
-			},
-			{
-				"family": "Yin",
-				"given": "Yuxin"
-			},
-			{
-				"family": "Robson",
-				"given": "Paul"
-			},
-			{
-				"family": "Li",
-				"given": "Yuanhao James"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			},
-			{
-				"family": "<b>Song</b>",
-				"given": "Dongyuan"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2025",
-					1,
-					1
-				]
-			]
-		}
-	},
-{
-	"id": "http://zotero.org/users/local/FrGxSZBV/items/6W7ATBDX",
-	"type": "article",
-	"abstract": "Double dipping is a well-known pitfall in single-cell and spatial transcriptomics data analysis: after a clustering algorithm finds clusters as putative cell types or spatial domains, statistical tests are applied to the same data to identify differentially expressed (DE) genes as potential cell-type or spatial-domain markers. Because the genes that contribute to clustering are inherently likely to be identified as DE genes, double dipping can result in false-positive cell-type or spatial-domain markers, especially when clusters are spurious, leading to ambiguously defined cell types or spatial domains. To address this challenge, we propose ClusterDE, a statistical method designed to identify post-clustering DE genes as reliable markers of cell types and spatial domains, while controlling the false discovery rate (FDR) regardless of clustering quality. The core of ClusterDE involves generating synthetic null data as an in silico negative control that contains only one cell type or spatial domain, allowing for the detection and removal of spurious discoveries caused by double dipping. We demonstrate that ClusterDE controls the FDR and identifies canonical cell-type and spatial-domain markers as top DE genes, distinguishing them from housekeeping genes. ClusterDE’s ability to discover reliable markers, or the absence of such markers, can be used to determine whether two ambiguous clusters should be merged. Additionally, ClusterDE is compatible with state-of-the-art analysis pipelines like Seurat and Scanpy.",
-	"DOI": "10.1101/2023.07.21.550107",
-	"language": "en",
-	"license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
-	"publisher": "Bioinformatics",
-	"source": "DOI.org (Crossref)",
-	"title": "Synthetic control removes spurious discoveries from double dipping in single-cell and spatial transcriptomics data analyses",
-	"URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.21.550107",
-	"author": [
-		{
-			"family": "<b>Song</b>",
-			"given": "Dongyuan"
-		},
-		{
-			"family": "Chen",
-			"given": "Siqi"
-		},
-		{
-			"family": "Lee",
-			"given": "Christy"
-		},
-		{
-			"family": "Li",
-			"given": "Kexin"
-		},
-		{
-			"family": "Ge",
-			"given": "Xinzhou"
-		},
-		{
-			"family": "Li",
-			"given": "Jingyi Jessica"
-		}
-	],
-	"accessed": {
-		"date-parts": [
-			[
-				"2025",
-				3,
-				6
-			]
-		]
-	},
-	"issued": {
-		"date-parts": [
-			[
-				"2023",
-				7,
-				25
-			]
-		]
-	}
-},
-	{
-		"id": "http://zotero.org/users/local/kNFwy5Yy/items/IWAE2NF6",
-		"type": "article-journal",
-		"abstract": "Genetic variation can alter brain structure and, consequently, function. Comparative statistical analysis of mouse brains across genetic backgrounds requires spatial, single-cell, atlas-scale data, in replicates—a challenge for current technologies. We introduce Atlas-scale Transcriptome Localization using Aggregate Signatures (ATLAS), a scalable tissue mapping method. ATLAS learns transcriptional signatures from scRNAseq data, encodes them in situ with tens of thousands of oligonucleotide probes, and decodes them to infer cell types and imputed transcriptomes. We validated ATLAS by comparing its cell type inferences with direct MERFISH measurements of marker genes and quantitative comparisons to four other technologies. Using ATLAS, we mapped the central brains of five male and five female C57BL/6J (B6) mice and five male BTBR T+ tf/J (BTBR) mice, an idiopathic model of autism, collectively profiling over 40 million cells across over 400 coronal sections. Our analysis revealed over 40 significant differences in cell type distributions and identified 16 regional composition changes across male-female and B6-BTBR comparisons. ATLAS thus enables systematic comparative studies, facilitating organ-level structure-function analysis of disease models.Competing Interest StatementZH and RW are the co-founders of Biocartography Inc.",
-		"container-title": "bioRxiv",
-		"DOI": "10.1101/2024.10.08.617260",
-		"page": "2024.10.08.617260",
-		"title": "Spatial Single-Cell Mapping of Transcriptional Differences Across Genetic Backgrounds in Mouse Brains",
-		"URL": "http://biorxiv.org/content/early/2024/10/09/2024.10.08.617260.abstract",
-		"author": [
-			{
-				"family": "Hemminger",
-				"given": "Zachary"
-			},
-			{
-				"family": "Sanchez-Tam",
-				"given": "Gabriela"
-			},
-			{
-				"family": "De Ocampo",
-				"given": "Haley"
-			},
-			{
-				"family": "Wang",
-				"given": "Aihui"
-			},
-			{
-				"family": "Underwood",
-				"given": "Thomas"
-			},
-			{
-				"family": "Xie",
-				"given": "Fangming"
-			},
-			{
-				"family": "Zhao",
-				"given": "Qiuying"
-			},
-			{
-				"family":"<b>Song</b>",
-                "given":"Dongyuan"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			},
-			{
-				"family": "Dong",
-				"given": "Hongwei"
-			},
-			{
-				"family": "Wollman",
-				"given": "Roy"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2024",
-					10,
-					8
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/local/kNFwy5Yy/items/GRQ9736W",
-		"type": "article-journal",
-		"abstract": "In single-cell RNA sequencing (scRNA-seq) analysis, a key challenge is inferring hidden cellular dynamics from static cell snapshots. Various computational methods have been developed to address this, focusing on perspectives like pseudotime trajectories, RNA velocities, and estimating the differentiation potential of cells, often referred to as \"cell potency.\" This review summarizes 14 methods for defining cell potency from scRNA-seq data, categorizing them into average-based, entropy-based, and correlation-based methods based on how they summarize gene expression levels into a potency measure. We highlight the key similarities and differences within and between these categories, offering a high-level intuition for each method. Additionally, we use unified mathematical notations to detail each method's methodology and summarize their usage complexities, including parameters, required inputs, and differences between published descriptions and software implementations. We conclude that cell potency estimation remains an open question without a consensus on the optimal approach, emphasizing the need for benchmark datasets and studies. This review aims to provide a foundation for future benchmark studies, while also addressing the broader challenge of comparing methods that infer cellular dynamics from scRNA-seq data through various perspectives, including pseudotime trajectories, RNA velocities, and cell potency.",
-		"container-title": "arXiv",
-		"DOI": "10.48550/arXiv.2309.13518",
-		"journalAbbreviation": "arXiv",
-		"title": "Review of computational methods for estimating cell potency from single-cell RNA-seq data, with a detailed analysis of discrepancies between method description and code implementation",
-		"URL": "https://doi.org/10.48550/arXiv.2309.13518",
-		"author": [
-			{
-				"family": "Wang",
-				"given": "Qingyang"
-			},
-			{
-				"family": "Zhai",
-				"given": "Zhiqian"
-			},
-			{
-				"family":"<b>Song</b>",
-                "given":"Dongyuan"
-			},
-			{
-				"family": "Li",
-				"given": "Jingyi Jessica"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					9,
-					24
-				]
-			]
-		}
-	}
+  {
+    "type": "posted-content",
+    "title": "scDesignPop generates realistic population-scale single-cell RNA-seq for power analysis, benchmarking, and privacy protection",
+    "container-title": "bioRxiv",
+    "DOI": "10.64898/2026.02.23.707578",
+    "URL": "https://doi.org/10.64898/2026.02.23.707578",
+    "author": [
+      {
+        "family": "Dong",
+        "given": "Chris Y."
+      },
+      {
+        "family": "Cen",
+        "given": "Yihui"
+      },
+      {
+        "family": "Song",
+        "given": "Dongyuan"
+      },
+      {
+        "family": "Li",
+        "given": "Jingyi Jessica"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          25
+        ]
+      ]
+    },
+    "abstract": "Single-cell RNA sequencing (scRNA-seq) combined with genotyping in large cohorts has enabled the discovery of genetic associations with molecular traits (e.g., eQTLs) at cell-type resolution. However, generating population-scale data remains cost-prohibitive, selecting appropriate analysis methods lacks consensus, and sharing eQTL results alongside scRNA-seq data raises privacy risks. To address these challenges, we introduce scDesignPop, a flexible statistical simulator for generating realistic population-scale scRNA-seq data with genetic effects. scDesignPop models cell- and individual-level covariates, putative cell-type-specific eQTLs (cts-eQTLs), and either real or synthetic genotypes. We validated scDesignPop using the OneK1K and CLUES cohorts across 4 qualitative and 16 quantitative metrics. Unlike splatPop, the only existing population-scale simulator, scDesignPop better preserves eQTL effects and gene-gene dependencies within cell types, closely recapitulating characteristics of the reference data. Leveraging its generative framework, scDesignPop enables power analysis in cell types under multiple eQTL model specifications to guide experimental design; facilitates benchmarking of single-cell eQTL mapping methods through user-defined ground truths; and mitigates re-identification risk using synthetic data while retaining cts-eQTL effects."
+  },
+  {
+    "id": "http://zotero.org/users/16008677/items/7JSGQTZV",
+    "type": "article",
+    "abstract": "Causal inference literature has extensively focused on binary treatments, with relatively fewer methods developed for multi-valued treatments. In particular, methods for multiple simultaneously assigned treatments remain understudied despite their practical importance. This paper introduces two settings: (1) estimating the effects of multiple treatments of different types (binary, categorical, and continuous) and the effects of treatment interactions, and (2) estimating the average treatment effect across categories of multi-valued regimens. To obtain robust estimates for both settings, we propose a class of methods based on the Double Machine Learning (DML) framework. Our methods are well-suited for complex settings of multiple treatments/regimens, using machine learning to model confounding relationships while overcoming regularization and overfitting biases through Neyman orthogonality and cross-fitting. To our knowledge, this work is the first to apply machine learning for robust estimation of interaction effects in the presence of multiple treatments. We further establish the asymptotic distribution of our estimators and derive variance estimators for statistical inference. Extensive simulations demonstrate the performance of our methods. Finally, we apply the methods to study the effect of three treatments on HIV-associated kidney disease in an adult HIV cohort of 2455 participants in Nigeria.",
+    "DOI": "10.48550/arXiv.2505.12617",
+    "language": "en",
+    "note": "arXiv:2505.12617 [stat]",
+    "number": "arXiv:2505.12617",
+    "publisher": "arXiv",
+    "source": "arXiv.org",
+    "title": "Double machine learning to estimate the effects of multiple treatments and their interactions",
+    "URL": "http://arxiv.org/abs/2505.12617",
+    "author": [
+      {
+        "family": "Xiang",
+        "given": "Qingyan"
+      },
+      {
+        "family": "Yuan",
+        "given": "Yubai"
+      },
+      {
+        "family": "<b>Song</b>",
+        "given": "Dongyuan"
+      },
+      {
+        "family": "Wudil",
+        "given": "Usman J."
+      },
+      {
+        "family": "Aliyu",
+        "given": "Muktar H."
+      },
+      {
+        "family": "Wester",
+        "given": "C. William"
+      },
+      {
+        "family": "Shepherd",
+        "given": "Bryan E."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          12,
+          19
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          5,
+          19
+        ]
+      ]
+    },
+    "container-title": "arXiv"
+  },
+  {
+    "type": "posted-content",
+    "title": "Learning single-cell spatial context through integrated spatial multiomics with CORAL",
+    "container-title": "bioRxiv",
+    "DOI": "10.1101/2025.02.01.636038",
+    "URL": "https://doi.org/10.1101/2025.02.01.636038",
+    "author": [
+      {
+        "family": "He",
+        "given": "Siyu"
+      },
+      {
+        "family": "Bieniosek",
+        "given": "Matthew"
+      },
+      {
+        "family": "Song",
+        "given": "Dongyuan"
+      },
+      {
+        "family": "Zhou",
+        "given": "Jingtian"
+      },
+      {
+        "family": "Chidester",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Wu",
+        "given": "Zhenqin"
+      },
+      {
+        "family": "Boen",
+        "given": "Joseph"
+      },
+      {
+        "family": "Sharma",
+        "given": "Padmanee"
+      },
+      {
+        "family": "Trevino",
+        "given": "Alexandro E."
+      },
+      {
+        "family": "Zou",
+        "given": "James"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          6
+        ]
+      ]
+    },
+    "abstract": "Cellular organization is central to tissue function and homeostasis, influencing development, disease progression, and therapeutic outcomes. The emergence of spatial omics technologies, including spatial transcriptomics and proteomics, has enabled the integration of molecular and histological features within tissues. Analyzing these multimodal data presents unique challenges, including variable resolutions, imperfect tissue alignment, and limited or variable spatial coverage. To address these issues, we introduce CORAL, a probabilistic deep generative model that leverages graph attention mechanisms to learn expressive, integrated representations of multimodal spatial omics data. CORAL deconvolves low-resolution spatial data into high-resolution single-cell profiles and detects functional spatial domains. It also characterizes cell-cell interactions and elucidates disease-relevant spatial features. Validated on synthetic data and experimental datasets, including Stero-CITE-seq data from mouse thymus, and paired CODEX and Visium data from hepatocellular carcinoma, CORAL demonstrates robustness and versatility. In hepatocellular carcinoma, CORAL uncovered key immune cell subsets that drive the failure of response to immunotherapy, highlighting its potential to advance spatial single-cell analyses and accelerate translational research."
+  },
+  {
+    "id": "http://zotero.org/users/local/kNFwy5Yy/items/IWAE2NF6",
+    "type": "article-journal",
+    "abstract": "Genetic variation can alter brain structure and, consequently, function. Comparative statistical analysis of mouse brains across genetic backgrounds requires spatial, single-cell, atlas-scale data, in replicates—a challenge for current technologies. We introduce Atlas-scale Transcriptome Localization using Aggregate Signatures (ATLAS), a scalable tissue mapping method. ATLAS learns transcriptional signatures from scRNAseq data, encodes them in situ with tens of thousands of oligonucleotide probes, and decodes them to infer cell types and imputed transcriptomes. We validated ATLAS by comparing its cell type inferences with direct MERFISH measurements of marker genes and quantitative comparisons to four other technologies. Using ATLAS, we mapped the central brains of five male and five female C57BL/6J (B6) mice and five male BTBR T+ tf/J (BTBR) mice, an idiopathic model of autism, collectively profiling over 40 million cells across over 400 coronal sections. Our analysis revealed over 40 significant differences in cell type distributions and identified 16 regional composition changes across male-female and B6-BTBR comparisons. ATLAS thus enables systematic comparative studies, facilitating organ-level structure-function analysis of disease models.Competing Interest StatementZH and RW are the co-founders of Biocartography Inc.",
+    "container-title": "bioRxiv",
+    "DOI": "10.1101/2024.10.08.617260",
+    "page": "2024.10.08.617260",
+    "title": "Spatial Single-Cell Mapping of Transcriptional Differences Across Genetic Backgrounds in Mouse Brains",
+    "URL": "http://biorxiv.org/content/early/2024/10/09/2024.10.08.617260.abstract",
+    "author": [
+      {
+        "family": "Hemminger",
+        "given": "Zachary"
+      },
+      {
+        "family": "Sanchez-Tam",
+        "given": "Gabriela"
+      },
+      {
+        "family": "De Ocampo",
+        "given": "Haley"
+      },
+      {
+        "family": "Wang",
+        "given": "Aihui"
+      },
+      {
+        "family": "Underwood",
+        "given": "Thomas"
+      },
+      {
+        "family": "Xie",
+        "given": "Fangming"
+      },
+      {
+        "family": "Zhao",
+        "given": "Qiuying"
+      },
+      {
+        "family": "<b>Song</b>",
+        "given": "Dongyuan"
+      },
+      {
+        "family": "Li",
+        "given": "Jingyi Jessica"
+      },
+      {
+        "family": "Dong",
+        "given": "Hongwei"
+      },
+      {
+        "family": "Wollman",
+        "given": "Roy"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          10,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/local/kNFwy5Yy/items/GRQ9736W",
+    "type": "article-journal",
+    "abstract": "In single-cell RNA sequencing (scRNA-seq) analysis, a key challenge is inferring hidden cellular dynamics from static cell snapshots. Various computational methods have been developed to address this, focusing on perspectives like pseudotime trajectories, RNA velocities, and estimating the differentiation potential of cells, often referred to as \"cell potency.\" This review summarizes 14 methods for defining cell potency from scRNA-seq data, categorizing them into average-based, entropy-based, and correlation-based methods based on how they summarize gene expression levels into a potency measure. We highlight the key similarities and differences within and between these categories, offering a high-level intuition for each method. Additionally, we use unified mathematical notations to detail each method's methodology and summarize their usage complexities, including parameters, required inputs, and differences between published descriptions and software implementations. We conclude that cell potency estimation remains an open question without a consensus on the optimal approach, emphasizing the need for benchmark datasets and studies. This review aims to provide a foundation for future benchmark studies, while also addressing the broader challenge of comparing methods that infer cellular dynamics from scRNA-seq data through various perspectives, including pseudotime trajectories, RNA velocities, and cell potency.",
+    "container-title": "arXiv",
+    "DOI": "10.48550/arXiv.2309.13518",
+    "journalAbbreviation": "arXiv",
+    "title": "Review of computational methods for estimating cell potency from single-cell RNA-seq data, with a detailed analysis of discrepancies between method description and code implementation",
+    "URL": "https://doi.org/10.48550/arXiv.2309.13518",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Qingyang"
+      },
+      {
+        "family": "Zhai",
+        "given": "Zhiqian"
+      },
+      {
+        "family": "<b>Song</b>",
+        "given": "Dongyuan"
+      },
+      {
+        "family": "Li",
+        "given": "Jingyi Jessica"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          9,
+          24
+        ]
+      ]
+    }
+  }
 ]

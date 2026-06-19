@@ -3,7 +3,7 @@ title: "News"
 layout: default
 excerpt: "DS Lab @ UConn Health"
 sitemap: false
-permalink: /news.html
+permalink: /news/
 ---
 
 <ul class="list-unstyled">
@@ -12,7 +12,7 @@ permalink: /news.html
             <div class="media-body">
             <h4 class="mt-0 mb-1">{{ article.title }}</h4>
             <p><small>{{ article.date }}</small></p>
-            {{ article.content }}
+            {{ article.content | markdownify }}
             </div>
         </li>
     {% endfor %}

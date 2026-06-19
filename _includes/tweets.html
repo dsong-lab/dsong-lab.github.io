@@ -1,5 +1,15 @@
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<aside class="home-news-panel" aria-labelledby="home-news-title">
+  <div class="home-news-panel-header">
+    <h3 id="home-news-title">Latest News</h3>
+    <a href="{{ site.baseurl }}/news/">All News</a>
+  </div>
 
-<a class="twitter-timeline" data-tweet-limit="1"
-data-chrome="noheader nofooter noborders"
-href="https://twitter.com/SongDongyuan"></a>
+  <ul class="home-news-list">
+    {% for article in site.data.news limit:3 %}
+      <li>
+        <time>{{ article.date }}</time>
+        <a href="{{ site.baseurl }}/news/">{{ article.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>

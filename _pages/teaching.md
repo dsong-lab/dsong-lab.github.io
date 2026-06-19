@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 layout: default
-excerpt: "RT2 Lab -- Teaching"
+excerpt: "DS Lab @ UConn Health -- Teaching"
 sitemap: false
 permalink: /teaching/
 ---
