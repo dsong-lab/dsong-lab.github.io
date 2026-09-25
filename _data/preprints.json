@@ -1,6 +1,49 @@
 [
   {
     "type": "posted-content",
+    "title": "spAlignDE unifies cross-sample and cross-modal spatial alignment with mismatch-aware differential expression",
+    "container-title": "bioRxiv",
+    "DOI": "10.64898/2026.09.05.749632",
+    "URL": "https://doi.org/10.64898/2026.09.05.749632",
+    "author": [
+      {
+        "family": "Xu",
+        "given": "Su"
+      },
+      {
+        "family": "Wang",
+        "given": "Yu"
+      },
+      {
+        "family": "Meng",
+        "given": "Lingzhen"
+      },
+      {
+        "family": "Dalal",
+        "given": "Aarya"
+      },
+      {
+        "family": "Yin",
+        "given": "Yuxin"
+      },
+      {
+        "family": "Song",
+        "given": "Dongyuan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          12
+        ]
+      ]
+    },
+    "abstract": "Comparative spatial-omics studies require accurate alignment across samples and modalities, yet residual mismatches can create false differential-expression signals. spAlignDE combines structure-guided diffeomorphic registration with mismatch-aware local differential expression, supporting spatial transcriptomics, spatial ATAC-seq, histology, and anatomical atlases without requiring shared molecular features. Across cross-sample and cross-modal benchmarks, it provides scalable alignment while improving false-discovery control in downstream analyses."
+  },
+  {
+    "type": "posted-content",
     "title": "scDesignPop generates realistic population-scale single-cell RNA-seq for power analysis, benchmarking, and privacy protection",
     "container-title": "bioRxiv",
     "DOI": "10.64898/2026.02.23.707578",

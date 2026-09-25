@@ -1,6 +1,46 @@
 [
   {
     "type": "journal-article",
+    "title": "Leveraging long read RNA-seq to decipher neuronal regulation of alternative polyadenylation",
+    "container-title": "Nature Communications",
+    "DOI": "10.1038/s41467-026-76377-8",
+    "URL": "https://doi.org/10.1038/s41467-026-76377-8",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Zhiping"
+      },
+      {
+        "family": "Glatt-Deeley",
+        "given": "Heather"
+      },
+      {
+        "family": "Zou",
+        "given": "Lehan"
+      },
+      {
+        "family": "Song",
+        "given": "Dongyuan"
+      },
+      {
+        "family": "Miura",
+        "given": "Pedro"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          25
+        ]
+      ]
+    },
+    "abstract": "Alternative polyadenylation expands transcript diversity but remains difficult to characterize precisely with short-read data. This study introduces APALORD, a computational framework for analyzing cleavage-site distributions in long-read RNA sequencing data. Applications to human stem-cell-derived neurons and Drosophila embryos reveal conserved features of polyadenylation-site regulation and substantially expand existing site annotations.",
+    "ISSN": "2041-1723"
+  },
+  {
+    "type": "journal-article",
     "title": "Flexible and scalable inference of spatially varying correlation in spatial transcriptomics with spCorr",
     "container-title": "Genome Research",
     "DOI": "10.1101/gr.281559.125",

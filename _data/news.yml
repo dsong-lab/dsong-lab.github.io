@@ -1,3 +1,9 @@
+- date: 09/12/2026
+  title: "Our spAlignDE preprint is now available"
+  tags:
+    - pub
+  content: Our new preprint, <a href="https://doi.org/10.64898/2026.09.05.749632">spAlignDE</a>, is now available on *bioRxiv*. spAlignDE unifies cross-sample and cross-modal spatial alignment with mismatch-aware differential expression.
+
 - date: 05/15/2026
   title: "Our learnability of scFMs paper is accepted by BMC Genomics"
   tags:
