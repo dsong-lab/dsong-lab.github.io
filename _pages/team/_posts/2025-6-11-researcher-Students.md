@@ -1,9 +1,9 @@
 ---
 layout: member
-category: student
+category: alumni
 title: Aya Amoudi
 image: AyaAmoudi.jpg
-role: Undergraduate Student
+role: Former Undergraduate Student
 permalink: 'team/AyaAmoudi/'
 social:
     #twitter: https://twitter.com/
@@ -14,7 +14,7 @@ social:
     #orcid: https://orcid.org/
     #research-gate: https://www.researchgate.net/
 education:
- - Fourth-year undergraduate student in Biomedical Engineering, University of Connecticut
+ - Undergraduate studies in Biomedical Engineering, University of Connecticut
 ---
 
-I am an undergraduate student at the University of Connecticut pursuing a Bachelor of Science in Biomedical Engineering with a concentration in Computational and Systems Biology. I am expected to graduate in 2026. I joined Dr. Song’s lab as a HRP research assistant in May 2025 and work on a variety of modifications to the scDesign3 model.
+I joined Dr. Song's lab as an HRP research assistant in May 2025 while studying Biomedical Engineering at the University of Connecticut, with a concentration in Computational and Systems Biology. My work in the lab focused on modifications to the scDesign3 model.

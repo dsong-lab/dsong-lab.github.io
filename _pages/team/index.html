@@ -63,11 +63,13 @@ permalink: /team/
 </div>
 {% endfor %}
 
-<!-- Students -->
+<!-- Students and alumni -->
 
-<h2><a id="student"></a>Students</h2>
-{% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
-<div class="container">
+{% assign member_groups = 'student,alumni' | split: ',' %}
+{% for member_group in member_groups %}
+{% assign members = site.posts | where: 'category', member_group | sort: 'date' %}
+{% if members.size > 0 %}
+<h2 id="{{ member_group }}">{% if member_group == 'student' %}Students{% else %}Alumni{% endif %}</h2>
   <div class="row">
     {% for member in members %}
       <div class="col-md-6">
@@ -93,4 +95,5 @@ permalink: /team/
       </div>
     {% endfor %}
   </div>
-</div>
+{% endif %}
+{% endfor %}

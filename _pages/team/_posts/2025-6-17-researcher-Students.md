@@ -3,7 +3,7 @@ layout: member
 category: student
 title: Yuxin Yin
 image: YuxinYin.jpg
-role: Research Assistant
+role: First-Year Graduate Student in Biomedical Science
 permalink: 'team/YuxinYin/'
 social:
     #twitter: https://twitter.com/
@@ -14,8 +14,9 @@ social:
     #orcid: https://orcid.org/
     #research-gate: https://www.researchgate.net/
 education:
+ - First-year graduate student in Biomedical Science, UConn Health
  - MS in Biostatistics, Columbia University
  - BS in Applied Mathematics and Statistics, Emory University
 ---
 
-I'm currently working as a research assistant in Dr. Song’s lab. I have a background in statistical genetics and computational biology, with research interests in single-cell transcriptomics, complex trait genetics, and rare diseases. I’m motivated by the potential of computational approaches to reveal biological insights and support disease research.
+I am a first-year graduate student in Biomedical Science at UConn Health, working in Dr. Song's lab. I have a background in statistical genetics and computational biology, with research interests in single-cell transcriptomics, complex trait genetics, and rare diseases. I’m motivated by the potential of computational approaches to reveal biological insights and support disease research.
