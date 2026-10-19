@@ -1,6 +1,53 @@
 [
   {
     "type": "posted-content",
+    "title": "Trustworthy super-resolution reconstruction across spatial omics modalities",
+    "container-title": "bioRxiv",
+    "DOI": "10.64898/2026.09.25.754471",
+    "URL": "https://doi.org/10.64898/2026.09.25.754471",
+    "author": [
+      {
+        "family": "Li",
+        "given": "Menghan"
+      },
+      {
+        "family": "Wang",
+        "given": "Xutao"
+      },
+      {
+        "family": "Xu",
+        "given": "Su"
+      },
+      {
+        "family": "Yin",
+        "given": "Yuxin"
+      },
+      {
+        "family": "Chen",
+        "given": "Dong"
+      },
+      {
+        "family": "Guo",
+        "given": "Xingche"
+      },
+      {
+        "family": "Song",
+        "given": "Dongyuan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          28
+        ]
+      ]
+    },
+    "abstract": "spEnhance combines histology, single-cell RNA-seq references, and gene co-expression information to reconstruct high-resolution molecular profiles from spot-level spatial omics. Count splitting creates independent training and validation data for model selection from a single tissue section, while predictive residuals provide local measures of reconstruction reliability. Benchmarks across tissues, platforms, and modalities demonstrate accurate recovery of fine tissue structure with reduced overfitting. The framework supports transcriptomic, isoform, epigenomic, proteomic, and metabolomic spatial data."
+  },
+  {
+    "type": "posted-content",
     "title": "spAlignDE unifies cross-sample and cross-modal spatial alignment with mismatch-aware differential expression",
     "container-title": "bioRxiv",
     "DOI": "10.64898/2026.09.05.749632",

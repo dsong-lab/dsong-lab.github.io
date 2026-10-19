@@ -3,7 +3,7 @@ layout: member
 category: student
 title: Yuxin Yin
 image: YuxinYin.jpg
-role: First-Year Graduate Student in Biomedical Science
+role: PhD student in Biomedical Science
 permalink: 'team/YuxinYin/'
 social:
     #twitter: https://twitter.com/
@@ -14,7 +14,7 @@ social:
     #orcid: https://orcid.org/
     #research-gate: https://www.researchgate.net/
 education:
- - First-year graduate student in Biomedical Science, UConn Health
+ - PhD student in Biomedical Science, UConn Health
  - MS in Biostatistics, Columbia University
  - BS in Applied Mathematics and Statistics, Emory University
 ---

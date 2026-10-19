@@ -1,3 +1,9 @@
+- date: 09/28/2026
+  title: "Our spEnhance preprint is now available"
+  tags:
+    - pub
+  content: Our new preprint, <a href="https://doi.org/10.64898/2026.09.25.754471">spEnhance</a>, is now available on *bioRxiv*. spEnhance reconstructs high-resolution spatial omics profiles using histology and molecular information, with validation and spatially resolved reliability estimates.
+
 - date: 09/12/2026
   title: "Our spAlignDE preprint is now available"
   tags:

@@ -3,7 +3,7 @@ layout: member
 category: student
 title: Yu Wang
 image: YuWang.jpg
-role: PhD Student
+role: PhD Candidate in Statistics
 permalink: 'team/YuWang/'
 social:
     #twitter: https://twitter.com/
