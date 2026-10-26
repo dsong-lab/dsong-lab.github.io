@@ -26,6 +26,9 @@ For international applicants, the English proficiency requirements are TOEFL iBT
 
 If you are interested in joining our lab, please email me (<dosong@uchc.edu>) with the subject line **"Ph.D. Application: [Your Name]"** and include your CV.
 
+### Graduate Assistantships (UConn Storrs)
+While we are **not actively recruiting Graduate Assistants from UConn Storrs**, interested students are welcome to contact me at <dosong@uchc.edu> to discuss potential future opportunities. Please include your CV and a brief description of your research interests.
+
 ### Undergraduate Students / Summer Interns
 If you are an *undergraduate student at UConn*, the [Health Research Program](https://ugradresearch.uconn.edu/hrp/) is an excellent opportunity to work with our lab while receiving financial support. Please check its website every **February** for application details.
 
