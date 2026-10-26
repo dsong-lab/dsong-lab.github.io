@@ -1,0 +1,15 @@
+{%- for author in include.authors -%}
+  {%- assign family = author.family | strip_html | strip -%}
+  {%- assign given = author.given | default: "" | strip_html | strip -%}
+  {%- assign author_full_name = given | append: " " | append: family -%}
+  {%- if family == "Song" and given contains "Dongyuan" -%}
+    <strong>{{ family | escape }}</strong>
+  {%- elsif include.lab_members contains author_full_name -%}
+    <span class="publication-lab-member" title="{{ author_full_name | escape }}">{{ family | escape }}</span>
+  {%- else -%}
+    {{- family | escape -}}
+  {%- endif -%}
+  {%- unless forloop.last -%}
+    {%- if forloop.rindex == 2 -%}{{- " and " -}}{%- else -%}{{- ", " -}}{%- endif -%}
+  {%- endunless -%}
+{%- endfor -%}

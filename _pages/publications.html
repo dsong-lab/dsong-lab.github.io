@@ -8,6 +8,10 @@ permalink: /publications/
 
 <div class="publications">
 
+  {% assign postdocs = site.posts | where: 'category', 'postdocs' %}
+  {% assign students = site.posts | where: 'category', 'student' %}
+  {% assign current_lab_members = postdocs | concat: students | map: 'title' %}
+
   <section class="publication-section">
     <div class="publication-section-header">
       <h2>Preprints</h2>
@@ -30,12 +34,7 @@ permalink: /publications/
           </a>
 
           <div class="publication-authors">
-            {% for author in publi.author %}
-              {% assign family = author.family | strip_html %}
-              {% assign given = author.given | default: "" %}
-              {% if family == "Song" and given contains "Dongyuan" %}
-                <strong>{{ family }}</strong>{% else %}{{ family }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
-            {% endfor %}
+            {% include publication-authors.html authors=publi.author lab_members=current_lab_members %}
           </div>
 
           <div class="publication-meta">
@@ -84,12 +83,7 @@ permalink: /publications/
           </a>
 
           <div class="publication-authors">
-            {% for author in publi.author %}
-              {% assign family = author.family | strip_html %}
-              {% assign given = author.given | default: "" %}
-              {% if family == "Song" and given contains "Dongyuan" %}
-                <strong>{{ family }}</strong>{% else %}{{ family }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
-            {% endfor %}
+            {% include publication-authors.html authors=publi.author lab_members=current_lab_members %}
           </div>
 
           <div class="publication-meta">

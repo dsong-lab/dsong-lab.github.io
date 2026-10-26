@@ -6,21 +6,18 @@ sitemap: false
 permalink: /openings/
 ---
 
-We are currently recruiting **one postdoctoral researcher** and **one Graduate Assistant from UConn Storrs**. The DS Lab is a computational research group focused on solving diverse problems in genomic data science, including statistical analysis, AI for science, and bioinformatics. Our lab is part of the [Department of Genetics and Genome Sciences](https://health.uconn.edu/genetics/) at UConn Health.
+We are currently recruiting **one postdoctoral researcher** and **one Ph.D. student in Biomedical Science at UConn Health**. The DS Lab is a computational research group focused on solving diverse problems in genomic data science, including statistical analysis, AI for science, and bioinformatics. Our lab is part of the [Department of Genetics and Genome Sciences](https://health.uconn.edu/genetics/) at UConn Health.
 
 If you have any questions about available positions, please email me at <dosong@uchc.edu>.
 
 ### Ph.D. Students
 
+We are recruiting **one Ph.D. student in Biomedical Science at UConn Health** to develop statistical and computational methods for single-cell and spatial omics.
+
 #### Current Students (at UCHC)
 Students enrolled in the [Ph.D. Program in Biomedical Science at UConn Health](https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/) are encouraged to consider rotating in our lab. If you are interested in computational genomics, please reach out via email (<dosong@uchc.edu>) or stop by my office (R1151).
 
 We welcome students from diverse backgrounds. Please note that programming experience (in R and/or Python) is expected. I serve as faculty in two Areas of Concentration: [Genetics and Developmental Biology](https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/genetics-and-developmental-biology-area-of-concentration/) (primary) and [Systems Biology](https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/cell-analysis-and-modeling-graduate-program/).
-
-#### Graduate Assistantship (UConn Storrs)
-We are recruiting **one Graduate Assistant from UConn Storrs**. Graduate students in Statistics, Computer Science, Data Science, or a related quantitative field who are interested in computational genomics are encouraged to apply.
-
-To apply, email me (<dosong@uchc.edu>) with the subject line **"Storrs GA Application: [Your Name]"** and include your CV and a brief description of your research interests and relevant programming experience.
 
 #### Prospective Students (not at UCHC yet)
 Prospective students should apply to the [Ph.D. Program in Biomedical Science at UConn Health](https://health.uconn.edu/graduate-school/academics/programs/ph-d-biomedical-science/). The application deadline is **December 1** each year. GRE scores are not required.

@@ -472,6 +472,12 @@ figcaption {
   color: #000E2F;
 }
 
+.publication-lab-member {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
 .publication-meta {
   color: #6b7280;
   display: flex;
