@@ -1,7 +1,41 @@
 ---
 ---
 
+$type-small: 14px;
+$type-body: 16px;
+$type-heading: 24px;
+$type-display: 32px;
+
+$font-size-base: $type-body;
+$font-size-small: $type-small;
+$font-size-large: $type-body;
+$font-size-h1: $type-display;
+$font-size-h2: $type-heading;
+$font-size-h3: $type-heading;
+$font-size-h4: $type-body;
+$font-size-h5: $type-body;
+$font-size-h6: $type-small;
+$headings-font-weight: 700;
+$blockquote-font-size: $type-body;
+$carousel-control-font-size: $type-body;
+
 @import "bootstrap";
+
+small,
+.small,
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.btn {
+  font-size: $type-small;
+}
+
+.lead {
+  font-size: $type-body;
+}
 
 body {
   padding-top: 0;
@@ -42,7 +76,7 @@ a:focus {
 .uconn-health-bar {
   background: #000E2F;
   color: #ffffff;
-  font-size: 12px;
+  font-size: $type-small;
 }
 
 .uconn-health-bar .container-fluid {
@@ -64,7 +98,7 @@ a:focus {
 }
 
 .uconn-health-wordmark {
-  font-size: 14px;
+  font-size: $type-small;
   font-weight: 700;
   letter-spacing: 0;
 }
@@ -90,7 +124,7 @@ a:focus {
   color: #000E2F;
   display: inline-block;
   flex: 0 0 auto;
-  font-size: 42px;
+  font-size: $type-display;
   font-weight: 800;
   line-height: 1;
   text-decoration: none;
@@ -112,7 +146,7 @@ a:focus {
 
 .lab-affiliation {
   color: #005ea8;
-  font-size: 13px;
+  font-size: $type-small;
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
@@ -120,7 +154,7 @@ a:focus {
 
 .lab-tagline {
   color: #334155;
-  font-size: 16px;
+  font-size: $type-body;
   line-height: 1.35;
   margin-top: 3px;
 }
@@ -162,6 +196,7 @@ a:focus {
 
 .lab-navbar .navbar-brand {
   color: #000E2F;
+  font-size: $type-body;
   font-weight: 700;
   height: 40px;
   padding-bottom: 10px;
@@ -236,7 +271,7 @@ figcaption {
 
 .site-main p,
 .site-main li {
-  font-size: 16px;
+  font-size: $type-body;
 }
 
 .home-main {
@@ -249,7 +284,7 @@ figcaption {
 
 #homeid h3:first-of-type {
   border-bottom: 2px solid #d9e0e8;
-  font-size: 24px;
+  font-size: $type-heading;
   margin-top: 8px;
   padding-bottom: 8px;
 }
@@ -281,12 +316,12 @@ figcaption {
 }
 
 .home-news-panel-header h3 {
-  font-size: 21px;
+  font-size: $type-heading;
   margin: 0;
 }
 
 .home-news-panel-header a {
-  font-size: 13px;
+  font-size: $type-small;
   font-weight: 700;
 }
 
@@ -313,7 +348,7 @@ figcaption {
 .home-news-list time {
   color: #6b7280;
   display: block;
-  font-size: 13px;
+  font-size: $type-small;
   margin-bottom: 3px;
 }
 
@@ -340,6 +375,12 @@ figcaption {
 .team-member-name {
   color: #000E2F;
   text-decoration: none;
+}
+
+.site-main .member-role {
+  font-size: $type-body;
+  font-weight: 400;
+  margin-top: 8px;
 }
 
 .team-member-name:hover,
@@ -415,7 +456,7 @@ figcaption {
 }
 
 .publication-section-header h2 {
-  font-size: 24px;
+  font-size: $type-heading;
   margin: 0;
 }
 
@@ -423,7 +464,7 @@ figcaption {
   background: #e8edf3;
   border-radius: 999px;
   color: #000E2F;
-  font-size: 13px;
+  font-size: $type-small;
   font-weight: 700;
   min-width: 34px;
   padding: 3px 10px;
@@ -450,7 +491,7 @@ figcaption {
 .publication-title {
   color: #000E2F;
   display: inline;
-  font-size: 17px;
+  font-size: $type-body;
   font-weight: 700;
   line-height: 1.35;
   text-decoration: none;
@@ -464,7 +505,7 @@ figcaption {
 
 .publication-authors {
   color: #4b5563;
-  font-size: 14px;
+  font-size: $type-body;
   margin-top: 5px;
 }
 
@@ -482,7 +523,7 @@ figcaption {
   color: #6b7280;
   display: flex;
   flex-wrap: wrap;
-  font-size: 13px;
+  font-size: $type-small;
   gap: 6px;
   margin-top: 4px;
 }
@@ -497,7 +538,7 @@ figcaption {
   border: 1px solid #a8b4c2;
   border-radius: 4px;
   color: #2f4358;
-  font-size: 12px;
+  font-size: $type-small;
   font-weight: 700;
   line-height: 1;
   padding: 7px 9px;
@@ -518,6 +559,7 @@ figcaption {
   color: #253142;
   grid-column: 1 / -1;
   margin-top: 4px;
+  overflow-wrap: anywhere;
   padding-top: 12px;
 }
 
@@ -540,18 +582,6 @@ figcaption {
 
   .lab-brand-row {
     padding: 16px 0 14px;
-  }
-
-  .lab-brand {
-    font-size: 32px;
-  }
-
-  .lab-affiliation {
-    font-size: 12px;
-  }
-
-  .lab-tagline {
-    font-size: 14px;
   }
 
   .container-fluid {
@@ -681,7 +711,7 @@ figcaption {
 
 .carousel-feature-kicker {
   color: #436b2d;
-  font-size: 14px;
+  font-size: $type-small;
   font-weight: 800;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -689,14 +719,14 @@ figcaption {
 
 .carousel-feature-title {
   color: #000E2F;
-  font-size: 44px;
+  font-size: $type-display;
   font-weight: 800;
   line-height: 1.08;
 }
 
 .carousel-feature-meta {
   color: #344457;
-  font-size: 18px;
+  font-size: $type-body;
   line-height: 1.45;
   max-width: 620px;
 }
@@ -722,17 +752,12 @@ figcaption {
     gap: 7px;
   }
 
-  .carousel-feature-kicker {
-    font-size: 11px;
-  }
-
   .carousel-feature-title {
-    font-size: 20px;
+    font-size: $type-heading;
     line-height: 1.12;
   }
 
   .carousel-feature-meta {
-    font-size: 12px;
     line-height: 1.35;
   }
 }
@@ -740,7 +765,7 @@ figcaption {
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: $type-body;
   color: #000E2F;
   background-color: #f5f7fa;
 }
