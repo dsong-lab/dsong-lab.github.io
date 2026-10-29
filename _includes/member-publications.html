@@ -41,8 +41,8 @@
           {% assign member_year = member_paper.issued['date-parts'] | first | first %}
           {% assign member_venue = member_paper.container-title | default: member_paper.publisher | default: member_paper.source %}
           <li>
-            <a class="member-publication-title" href="https://doi.org/{{ member_doi }}" target="_blank" rel="noopener noreferrer">{{ member_paper.title | escape }}</a>
-            <span class="member-publication-meta"><em>{{ member_venue | escape }}</em>{% if member_year %} ({{ member_year }}){% endif %}</span>
+            <a class="member-publication-title" href="https://doi.org/{{ member_doi }}" title="{{ member_paper.title | escape }}" target="_blank" rel="noopener noreferrer">{{ member_paper.title | escape }}</a>
+            <span class="member-publication-meta" title="{{ member_venue | escape }}{% if member_year %} ({{ member_year }}){% endif %}"><em>{{ member_venue | escape }}</em>{% if member_year %} ({{ member_year }}){% endif %}</span>
           </li>
         {% endfor %}
       </ul>

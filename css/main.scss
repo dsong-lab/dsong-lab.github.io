@@ -412,21 +412,32 @@ figcaption {
 }
 
 .site-main .member-publication-list > li {
+  align-items: baseline;
+  display: flex;
+  font-size: $type-small;
+  gap: 12px;
   line-height: 1.4;
-  padding: 6px 0;
+  padding: 5px 0;
 }
 
 .member-publication-title {
+  flex: 1;
   font-weight: 600;
-  overflow-wrap: anywhere;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .member-publication-meta {
   color: #6b7280;
-  display: block;
+  flex: 0 1 auto;
   font-size: $type-small;
   line-height: 1.4;
-  margin-top: 2px;
+  max-width: 45%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .team-member-name:hover,
