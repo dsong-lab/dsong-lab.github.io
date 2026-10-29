@@ -2,12 +2,26 @@
   {%- assign family = author.family | strip_html | strip -%}
   {%- assign given = author.given | default: "" | strip_html | strip -%}
   {%- assign author_full_name = given | append: " " | append: family -%}
+  {%- assign author_label = family -%}
+  {%- if include.compact and given != '' -%}
+    {%- assign given_names = given | split: ' ' -%}
+    {%- capture initials -%}
+      {%- for given_name in given_names -%}{{- given_name | slice: 0 | upcase -}}.{%- endfor -%}
+    {%- endcapture -%}
+    {%- assign author_label = family | append: ', ' | append: initials -%}
+  {%- endif -%}
+  {%- if include.lab_members contains author_full_name -%}
+    <span class="publication-lab-member" title="{{ author_full_name | escape }}">
+  {%- endif -%}
   {%- if family == "Song" and given contains "Dongyuan" -%}
-    <strong>{{ family | escape }}</strong>
-  {%- elsif include.lab_members contains author_full_name -%}
-    <span class="publication-lab-member" title="{{ author_full_name | escape }}">{{ family | escape }}</span>
+    <strong>{{ author_label | escape }}</strong>
+  {%- elsif include.profile_name == author_full_name -%}
+    <strong>{{ author_label | escape }}</strong>
   {%- else -%}
-    {{- family | escape -}}
+    {{- author_label | escape -}}
+  {%- endif -%}
+  {%- if include.lab_members contains author_full_name -%}
+    </span>
   {%- endif -%}
   {%- unless forloop.last -%}
     {%- if forloop.rindex == 2 -%}{{- " and " -}}{%- else -%}{{- ", " -}}{%- endif -%}

@@ -1,4 +1,7 @@
 {%- assign member_name = page.title | strip -%}
+{%- assign postdocs = site.posts | where: 'category', 'postdocs' -%}
+{%- assign students = site.posts | where: 'category', 'student' -%}
+{%- assign current_lab_members = postdocs | concat: students | map: 'title' -%}
 {%- assign member_publication_count = 0 -%}
 {%- assign member_publication_groups = 'publications,preprints' | split: ',' -%}
 {%- assign member_publication_start = 0 -%}
@@ -41,8 +44,9 @@
           {% assign member_year = member_paper.issued['date-parts'] | first | first %}
           {% assign member_venue = member_paper.container-title | default: member_paper.publisher | default: member_paper.source %}
           <li>
-            <a class="member-publication-title" href="https://doi.org/{{ member_doi }}" title="{{ member_paper.title | escape }}" target="_blank" rel="noopener noreferrer">{{ member_paper.title | escape }}</a>
-            <span class="member-publication-meta" title="{{ member_venue | escape }}{% if member_year %} ({{ member_year }}){% endif %}"><em>{{ member_venue | escape }}</em>{% if member_year %} ({{ member_year }}){% endif %}</span>
+            {% include publication-authors.html authors=member_paper.author lab_members=current_lab_members compact=true profile_name=member_name %}{% if member_year %} ({{ member_year }}){% endif %}.
+            <a class="member-publication-title" href="https://doi.org/{{ member_doi }}" target="_blank" rel="noopener noreferrer">{{ member_paper.title | escape }}</a>.
+            <em>{{ member_venue | escape }}</em>{% if member_paper.volume %} {{ member_paper.volume | escape }}{% endif %}{% if member_paper.issue %}({{ member_paper.issue | escape }}){% endif %}{% if member_paper.page %}{% if member_paper.volume %}: {% else %}, {% endif %}{{ member_paper.page | escape }}{% endif %}.
           </li>
         {% endfor %}
       </ul>

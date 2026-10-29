@@ -406,38 +406,26 @@ figcaption {
 }
 
 .member-publication-list {
-  list-style: none;
   margin: 0;
-  padding: 0;
+  padding-left: 22px;
 }
 
 .site-main .member-publication-list > li {
-  align-items: baseline;
-  display: flex;
-  font-size: $type-small;
-  gap: 12px;
-  line-height: 1.4;
-  padding: 5px 0;
+  font-size: $type-body;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  padding: 0 0 10px 2px;
 }
 
 .member-publication-title {
-  flex: 1;
-  font-weight: 600;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  color: inherit;
+  font-weight: 400;
 }
 
-.member-publication-meta {
-  color: #6b7280;
-  flex: 0 1 auto;
-  font-size: $type-small;
-  line-height: 1.4;
-  max-width: 45%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.member-publication-title:hover,
+.member-publication-title:focus {
+  color: #005ea8;
+  text-decoration: underline;
 }
 
 .team-member-name:hover,
