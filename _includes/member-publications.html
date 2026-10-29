@@ -1,0 +1,62 @@
+{%- assign member_name = page.title | strip -%}
+{%- assign member_publication_count = 0 -%}
+{%- assign member_publication_groups = 'publications,preprints' | split: ',' -%}
+{%- assign member_publication_start = 0 -%}
+{%- if page.publications_since -%}
+  {%- assign member_publication_start = page.publications_since | date: '%Y%m%d' | plus: 0 -%}
+{%- endif -%}
+{%- assign postdocs = site.posts | where: 'category', 'postdocs' -%}
+{%- assign students = site.posts | where: 'category', 'student' -%}
+{%- assign current_lab_members = postdocs | concat: students | map: 'title' -%}
+
+{%- capture member_publication_lists -%}
+  {%- for member_publication_group in member_publication_groups -%}
+    {%- assign member_group_publications = '' | split: ',' -%}
+    {%- for member_paper in site.data[member_publication_group] -%}
+      {%- assign member_paper_matches = false -%}
+      {%- for member_author in member_paper.author -%}
+        {%- assign member_author_family = member_author.family | strip_html | strip -%}
+        {%- assign member_author_given = member_author.given | default: '' | strip_html | strip -%}
+        {%- assign member_author_name = member_author_given | append: ' ' | append: member_author_family -%}
+        {%- if member_author_name == member_name -%}
+          {%- if page.corresponding_author_only != true or member_author.corresponding == true -%}
+            {%- assign member_paper_matches = true -%}
+          {%- endif -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign member_paper_date_parts = member_paper.issued['date-parts'] | first -%}
+      {%- assign member_paper_year = member_paper_date_parts[0] | plus: 0 -%}
+      {%- assign member_paper_month = member_paper_date_parts[1] | default: 1 | plus: 0 -%}
+      {%- assign member_paper_day = member_paper_date_parts[2] | default: 1 | plus: 0 -%}
+      {%- assign member_paper_date = member_paper_year | times: 100 | plus: member_paper_month | times: 100 | plus: member_paper_day -%}
+      {%- if member_paper_matches and member_paper_date >= member_publication_start -%}
+        {%- assign member_group_publications = member_group_publications | push: member_paper -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- assign member_group_count = member_group_publications | size -%}
+    {%- assign member_publication_count = member_publication_count | plus: member_group_count -%}
+    {%- if member_group_count > 0 -%}
+      <h4>{% if member_publication_group == 'publications' %}Peer Reviewed{% else %}Preprints{% endif %}</h4>
+      <div class="publication-list">
+        {% for member_paper in member_group_publications %}
+          {% assign member_collapse_id = 'member-' | append: member_publication_group | append: '-' | append: forloop.index %}
+          {% include publication-item.html publication=member_paper collapse_id=member_collapse_id lab_members=current_lab_members %}
+        {% endfor %}
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+<section class="row member-publications" aria-labelledby="member-publications-title">
+  <div class="member-publications-header">
+    <h3 id="member-publications-title">{{ page.publications_title | default: 'Publications in the DS Lab' | escape }}</h3>
+    <a href="{{ site.baseurl }}/publications/">All publications</a>
+  </div>
+  {% if member_publication_count > 0 %}
+    {{ member_publication_lists }}
+  {% else %}
+    <p>No publications listed yet.</p>
+  {% endif %}
+</section>

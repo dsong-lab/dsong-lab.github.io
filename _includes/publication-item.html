@@ -1,0 +1,38 @@
+{% assign publication = include.publication %}
+{% assign doi = publication.DOI | remove_first: "https://doi.org/" | remove_first: "http://doi.org/" | remove_first: "https://dx.doi.org/" | remove_first: "http://dx.doi.org/" %}
+{% assign issued_parts = publication.issued["date-parts"] | first %}
+{% assign year = issued_parts | first %}
+{% assign venue = publication.container-title | default: publication.publisher | default: publication.source %}
+<article class="publication-item">
+  <div class="publication-content">
+    <a class="publication-title" data-toggle="collapse"
+       href="#{{ include.collapse_id }}"
+       aria-expanded="false"
+       aria-controls="{{ include.collapse_id }}">
+      {{ publication.title | escape }}
+    </a>
+
+    <div class="publication-authors">
+      {% include publication-authors.html authors=publication.author lab_members=include.lab_members %}
+    </div>
+
+    <div class="publication-meta">
+      {% if venue %}<span>{{ venue | escape }}</span>{% endif %}
+      {% if year %}<span>{{ year }}</span>{% endif %}
+    </div>
+  </div>
+
+  {% if doi != "" %}
+  <a class="publication-doi" href="https://doi.org/{{ doi }}" target="_blank" rel="noopener noreferrer">
+    DOI
+  </a>
+  {% endif %}
+
+  <div id="{{ include.collapse_id }}" class="collapse publication-abstract">
+    {% if publication.abstract %}
+      <p>{{ publication.abstract }}</p>
+    {% else %}
+      <p><em>Abstract not available.</em></p>
+    {% endif %}
+  </div>
+</article>

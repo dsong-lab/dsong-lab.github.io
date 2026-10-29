@@ -383,6 +383,28 @@ figcaption {
   margin-top: 8px;
 }
 
+.member-publications {
+  border-top: 1px solid #d9e0e8;
+  margin-top: 26px;
+}
+
+.member-publications-header {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  justify-content: space-between;
+  margin: 24px 0 16px;
+}
+
+.member-publications-header h3 {
+  margin: 0;
+}
+
+.member-publications-header > a {
+  font-size: $type-small;
+}
+
 .team-member-name:hover,
 .team-member-name:focus {
   color: #005ea8;

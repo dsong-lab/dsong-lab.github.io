@@ -20,43 +20,8 @@ permalink: /publications/
 
     <div class="publication-list" id="preprint-list">
       {% for publi in site.data.preprints %}
-      {% assign doi = publi.DOI | remove_first: "https://doi.org/" | remove_first: "http://doi.org/" | remove_first: "https://dx.doi.org/" | remove_first: "http://dx.doi.org/" %}
-      {% assign issued_parts = publi.issued["date-parts"] | first %}
-      {% assign year = issued_parts | first %}
-      {% assign venue = publi.container-title | default: publi.publisher | default: publi.source %}
-      <article class="publication-item">
-        <div class="publication-content">
-          <a class="publication-title" data-toggle="collapse"
-             href="#preprint-collapse-{{ forloop.index }}"
-             aria-expanded="false"
-             aria-controls="preprint-collapse-{{ forloop.index }}">
-            {{ publi.title }}
-          </a>
-
-          <div class="publication-authors">
-            {% include publication-authors.html authors=publi.author lab_members=current_lab_members %}
-          </div>
-
-          <div class="publication-meta">
-            {% if venue %}<span>{{ venue }}</span>{% endif %}
-            {% if year %}<span>{{ year }}</span>{% endif %}
-          </div>
-        </div>
-
-        {% if doi %}
-        <a class="publication-doi" href="https://doi.org/{{ doi }}" target="_blank" rel="noopener noreferrer">
-          DOI
-        </a>
-        {% endif %}
-
-        <div id="preprint-collapse-{{ forloop.index }}" class="collapse publication-abstract">
-          {% if publi.abstract %}
-            <p>{{ publi.abstract }}</p>
-          {% else %}
-            <p><em>Abstract not available.</em></p>
-          {% endif %}
-        </div>
-      </article>
+      {% assign collapse_id = 'preprint-collapse-' | append: forloop.index %}
+      {% include publication-item.html publication=publi collapse_id=collapse_id lab_members=current_lab_members %}
       {% endfor %}
     </div>
   </section>
@@ -69,43 +34,8 @@ permalink: /publications/
 
     <div class="publication-list" id="peer-reviewed-list">
       {% for publi in site.data.publications %}
-      {% assign doi = publi.DOI | remove_first: "https://doi.org/" | remove_first: "http://doi.org/" | remove_first: "https://dx.doi.org/" | remove_first: "http://dx.doi.org/" %}
-      {% assign issued_parts = publi.issued["date-parts"] | first %}
-      {% assign year = issued_parts | first %}
-      {% assign venue = publi.container-title | default: publi.publisher | default: publi.source %}
-      <article class="publication-item">
-        <div class="publication-content">
-          <a class="publication-title" data-toggle="collapse"
-             href="#peer-collapse-{{ forloop.index }}"
-             aria-expanded="false"
-             aria-controls="peer-collapse-{{ forloop.index }}">
-            {{ publi.title }}
-          </a>
-
-          <div class="publication-authors">
-            {% include publication-authors.html authors=publi.author lab_members=current_lab_members %}
-          </div>
-
-          <div class="publication-meta">
-            {% if venue %}<span>{{ venue }}</span>{% endif %}
-            {% if year %}<span>{{ year }}</span>{% endif %}
-          </div>
-        </div>
-
-        {% if doi %}
-        <a class="publication-doi" href="https://doi.org/{{ doi }}" target="_blank" rel="noopener noreferrer">
-          DOI
-        </a>
-        {% endif %}
-
-        <div id="peer-collapse-{{ forloop.index }}" class="collapse publication-abstract">
-          {% if publi.abstract %}
-            <p>{{ publi.abstract }}</p>
-          {% else %}
-            <p><em>Abstract not available.</em></p>
-          {% endif %}
-        </div>
-      </article>
+      {% assign collapse_id = 'peer-collapse-' | append: forloop.index %}
+      {% include publication-item.html publication=publi collapse_id=collapse_id lab_members=current_lab_members %}
       {% endfor %}
     </div>
   </section>

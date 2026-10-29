@@ -32,7 +32,8 @@
       },
       {
         "family": "Song",
-        "given": "Dongyuan"
+        "given": "Dongyuan",
+        "corresponding": true
       }
     ],
     "issued": {
@@ -75,7 +76,8 @@
       },
       {
         "family": "Song",
-        "given": "Dongyuan"
+        "given": "Dongyuan",
+        "corresponding": true
       }
     ],
     "issued": {

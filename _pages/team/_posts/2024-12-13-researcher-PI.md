@@ -6,6 +6,9 @@ image: DongyuanSong.jpg
 role: Principal Investigator
 highestedu: Ph.D. in Bioinformatics, UCLA
 permalink: 'team/Dongyuan/'
+publications_since: '2024-11-01'
+publications_title: Representative Works
+corresponding_author_only: true
 social:
     twitter: https://x.com/SongDongyuan/
     #linkedin: https://www.linkedin.com/
