@@ -135,11 +135,13 @@
     "author": [
       {
         "family": "Lai",
-        "given": "Yuheng"
+        "given": "Yuheng",
+        "co_first_author": true
       },
       {
         "family": "<b>Song</b>",
-        "given": "Dongyuan"
+        "given": "Dongyuan",
+        "co_first_author": true
       },
       {
         "family": "Xia",

@@ -19,7 +19,7 @@
         {%- assign member_author_given = member_author.given | default: '' | strip_html | strip -%}
         {%- assign member_author_name = member_author_given | append: ' ' | append: member_author_family -%}
         {%- if member_author_name == member_name -%}
-          {%- if page.corresponding_author_only != true or member_author.corresponding == true -%}
+          {%- if page.first_or_corresponding_author_only != true or forloop.first or member_author.co_first_author == true or member_author.corresponding == true -%}
             {%- assign member_paper_matches = true -%}
           {%- endif -%}
           {%- break -%}
