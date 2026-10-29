@@ -731,11 +731,13 @@
     "author": [
       {
         "family": "Cui",
-        "given": "Elvis Han"
+        "given": "Elvis Han",
+        "co_first_author": true
       },
       {
         "family": "<b>Song</b>",
-        "given": "Dongyuan"
+        "given": "Dongyuan",
+        "co_first_author": true
       },
       {
         "family": "Wong",

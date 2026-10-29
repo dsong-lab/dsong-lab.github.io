@@ -405,6 +405,30 @@ figcaption {
   font-size: $type-small;
 }
 
+.member-publication-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-main .member-publication-list > li {
+  line-height: 1.4;
+  padding: 6px 0;
+}
+
+.member-publication-title {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.member-publication-meta {
+  color: #6b7280;
+  display: block;
+  font-size: $type-small;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
 .team-member-name:hover,
 .team-member-name:focus {
   color: #005ea8;

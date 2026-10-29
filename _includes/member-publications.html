@@ -5,10 +5,6 @@
 {%- if page.publications_since -%}
   {%- assign member_publication_start = page.publications_since | date: '%Y%m%d' | plus: 0 -%}
 {%- endif -%}
-{%- assign postdocs = site.posts | where: 'category', 'postdocs' -%}
-{%- assign students = site.posts | where: 'category', 'student' -%}
-{%- assign current_lab_members = postdocs | concat: students | map: 'title' -%}
-
 {%- capture member_publication_lists -%}
   {%- for member_publication_group in member_publication_groups -%}
     {%- assign member_group_publications = '' | split: ',' -%}
@@ -39,12 +35,17 @@
     {%- assign member_publication_count = member_publication_count | plus: member_group_count -%}
     {%- if member_group_count > 0 -%}
       <h4>{% if member_publication_group == 'publications' %}Peer Reviewed{% else %}Preprints{% endif %}</h4>
-      <div class="publication-list">
+      <ul class="member-publication-list">
         {% for member_paper in member_group_publications %}
-          {% assign member_collapse_id = 'member-' | append: member_publication_group | append: '-' | append: forloop.index %}
-          {% include publication-item.html publication=member_paper collapse_id=member_collapse_id lab_members=current_lab_members %}
+          {% assign member_doi = member_paper.DOI | remove_first: 'https://doi.org/' | remove_first: 'http://doi.org/' | remove_first: 'https://dx.doi.org/' | remove_first: 'http://dx.doi.org/' %}
+          {% assign member_year = member_paper.issued['date-parts'] | first | first %}
+          {% assign member_venue = member_paper.container-title | default: member_paper.publisher | default: member_paper.source %}
+          <li>
+            <a class="member-publication-title" href="https://doi.org/{{ member_doi }}" target="_blank" rel="noopener noreferrer">{{ member_paper.title | escape }}</a>
+            <span class="member-publication-meta"><em>{{ member_venue | escape }}</em>{% if member_year %} ({{ member_year }}){% endif %}</span>
+          </li>
         {% endfor %}
-      </div>
+      </ul>
     {%- endif -%}
   {%- endfor -%}
 {%- endcapture -%}
