@@ -1,6 +1,109 @@
 [
   {
     "type": "journal-article",
+    "title": "Spatial single-cell mapping of transcriptional differences across genetic backgrounds in mouse brains",
+    "container-title": "Nature Methods",
+    "DOI": "10.1038/s41592-026-03289-2",
+    "URL": "https://doi.org/10.1038/s41592-026-03289-2",
+    "author": [
+      {
+        "family": "Hemminger",
+        "given": "Zachary"
+      },
+      {
+        "family": "Tam",
+        "given": "Gabriela"
+      },
+      {
+        "family": "De Ocampo",
+        "given": "Haley"
+      },
+      {
+        "family": "Wang",
+        "given": "Aihui"
+      },
+      {
+        "family": "Underwood",
+        "given": "Thomas"
+      },
+      {
+        "family": "Xie",
+        "given": "Fangming"
+      },
+      {
+        "family": "Zhao",
+        "given": "Qiuying"
+      },
+      {
+        "family": "Song",
+        "given": "Dongyuan"
+      },
+      {
+        "family": "Li",
+        "given": "Jingyi Jessica"
+      },
+      {
+        "family": "Dong",
+        "given": "Hongwei"
+      },
+      {
+        "family": "Wollman",
+        "given": "Roy"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          30
+        ]
+      ]
+    },
+    "abstract": "ATLAS combines transcriptional signatures learned from single-cell RNA sequencing with in situ probe measurements to map cell types and infer transcriptomes across tissues. Profiling 40 million cells from 15 mouse brains reveals sex- and genotype-associated differences in cell-type distributions and regional composition, enabling replicated spatial comparisons across genetic backgrounds."
+  },
+  {
+    "type": "journal-article",
+    "title": "Categorization and analysis of 16 computational methods for estimating cell potency from single-cell RNA-seq data",
+    "container-title": "Cell Systems",
+    "DOI": "10.1016/j.cels.2026.101762",
+    "URL": "https://doi.org/10.1016/j.cels.2026.101762",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Qingyang"
+      },
+      {
+        "family": "Zhai",
+        "given": "Zhiqian"
+      },
+      {
+        "family": "Lian",
+        "given": "Qiuyu"
+      },
+      {
+        "family": "Song",
+        "given": "Dongyuan"
+      },
+      {
+        "family": "Li",
+        "given": "Jingyi Jessica"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          29
+        ]
+      ]
+    },
+    "page": "101762",
+    "abstract": "This review organizes 16 methods for estimating cellular differentiation potential from single-cell RNA sequencing into average-based, entropy-based, and knowledge-based categories. Unified mathematical notation clarifies their assumptions, relationships, and practical requirements. The review emphasizes the need for community benchmarks and sensitivity analyses to evaluate stability and generalizability."
+  },
+  {
+    "type": "journal-article",
     "title": "Leveraging long read RNA-seq to decipher neuronal regulation of alternative polyadenylation",
     "container-title": "Nature Communications",
     "DOI": "10.1038/s41467-026-76377-8",
