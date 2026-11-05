@@ -1,6 +1,73 @@
 [
   {
     "type": "journal-article",
+    "title": "Multiscale multimodal integration of spatial omics through a deep generative model with CORAL",
+    "container-title": "Nature Genetics",
+    "DOI": "10.1038/s41588-026-02821-6",
+    "URL": "https://doi.org/10.1038/s41588-026-02821-6",
+    "author": [
+      {
+        "family": "He",
+        "given": "Siyu"
+      },
+      {
+        "family": "Bieniosek",
+        "given": "Matthew"
+      },
+      {
+        "family": "Zhou",
+        "given": "Jingtian"
+      },
+      {
+        "family": "Song",
+        "given": "Dongyuan"
+      },
+      {
+        "family": "Chidester",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Wu",
+        "given": "Zhenqin"
+      },
+      {
+        "family": "Boen",
+        "given": "Joseph"
+      },
+      {
+        "family": "Wang",
+        "given": "Guiping"
+      },
+      {
+        "family": "Kaseb",
+        "given": "Ahmed O."
+      },
+      {
+        "family": "Sharma",
+        "given": "Padmanee"
+      },
+      {
+        "family": "Trevino",
+        "given": "Alexandro E."
+      },
+      {
+        "family": "Zou",
+        "given": "James"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "abstract": "CORAL uses a probabilistic generative model with graph attention to combine spatial omics measurements across resolutions and modalities. It integrates transcriptomic, proteomic, metabolomic, and epigenomic data to infer molecular profiles, tissue domains, and cellular interactions. Analyses of liver cancer samples before and after immunotherapy reveal immune organization and signaling associated with treatment resistance."
+  },
+  {
+    "type": "journal-article",
     "title": "Spatial single-cell mapping of transcriptional differences across genetic backgrounds in mouse brains",
     "container-title": "Nature Methods",
     "DOI": "10.1038/s41592-026-03289-2",
